@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+    xmlns:local="clr-namespace:GoldenCities" 
+    x:Class="GoldenCities.GoldenCitiesPage"
+    BackgroundColor="Navy"
+    >
+
+    <Grid
+        x:Name="ButtonsGrid"
+        RowSpacing="1"
+        ColumnSpacing="1"
+        >
+      <Grid.RowDefinitions>
+            <RowDefinition
+                Height="2*"
+            />
+            <RowDefinition
+                Height="*" 
+            />
+            <RowDefinition
+                Height="*"
+            />
+            <RowDefinition
+                Height="*"
+            />
+            <RowDefinition
+                Height="*" 
+            />
+            <RowDefinition
+                Height="*"
+            />
+            <RowDefinition
+                Height="*"
+            />
+            <RowDefinition
+                Height="*" 
+            />
+            <RowDefinition
+                Height="*"
+            />
+
+      </Grid.RowDefinitions>
+
+      <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                Width="*"
+            />
+            <ColumnDefinition
+                Width="*"
+            />
+            <ColumnDefinition
+                Width="*"
+            />
+            <ColumnDefinition
+                Width="*"
+            />
+            <ColumnDefinition
+                Width="*"
+            />
+
+     </Grid.ColumnDefinitions>
+       
+    
+    <StackLayout 
+            Padding="0,20,0,0"
+            Grid.Row="0"
+            Grid.ColumnSpan="5"
+            BackgroundColor="Navy">
+
+            
+        
+	<Label 
+    Text="Welcome to the Golden City." 
+    VerticalOptions="Start" 
+    HorizontalOptions="Center"
+    FontSize="24"
+    TextColor="Yellow"
+   
+        />
+
+    <Label 
+      Text="Here you will find a list of interesting cities in the world."
+      TextColor="Red"
+
+        />
+
+     <Label 
+         
+         Text="If you already are a user you can login. If you are new click Register."
+         TextColor="Red"
+        />
+
+         </StackLayout>
+
+
+        <Image
+            Grid.Row="2"
+            Grid.Column="1"
+            Grid.RowSpan="3"
+            Grid.ColumnSpan="3"
+            Source="FutureCity.png" 
+
+        />
+
+      <Button 
+          Grid.Row="5"
+          Grid.Column="1"
+          Text="Login"
+          BorderWidth="1"
+          BackgroundColor="Yellow"
+          Clicked="Handle_ClickedLogin" 
+
+        />
+
+     <Button 
+          Grid.Row="5"
+          Grid.Column="3"
+          Text="Register"
+          BorderWidth="1"
+          BackgroundColor="Yellow"
+          Clicked="Handle_ClickedRegister"
+
+        />
+
+        </Grid>
+    
+</ContentPage>
