@@ -32,3 +32,4 @@ namespace GoldenCities.ClassModels
         }
     }
 }
+// password must include a capital letter and a number

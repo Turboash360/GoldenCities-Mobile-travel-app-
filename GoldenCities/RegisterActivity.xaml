@@ -2,11 +2,50 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="GoldenCities.RegisterActivity">
+    x:Class="GoldenCities.RegisterActivity"
+    BackgroundColor="Teal
+    "
+    >
 	<ContentPage.Content>
+ 
+
+        
+     <StackLayout VerticalOptions="StartAndExpand"
+            Padding="5" >
+
         <Label
-            Text="Register Activity Under Construction!"
-            VerticalOptions="CenterAndExpand"
+            Text="The Golden City"
+            TextColor="Yellow"
+            FontSize="35"
+            VerticalOptions="StartAndExpand"
+            HorizontalOptions="CenterAndExpand"
         />
+
+            
+        <StackLayout Orientation="Horizontal"
+            
+            >
+            <Entry
+                Placeholder="First Name"
+            />
+            <Entry
+                Placeholder="Last Name"
+            />
+        </StackLayout>
+
+        <Entry Placeholder="Email"/>
+        <Entry Placeholder="Username"/>
+        <Entry Placeholder="Password"/>
+        <Entry Placeholder="ConfirmPassword"/>
+        <Label Text="Date of Birth"/>
+         <DatePicker></DatePicker>
+         <Label Text="Address"/>
+         <Editor></Editor>
+
+          <Button Text="Register"
+                BackgroundColor="Silver"
+            /> 
+
+      </StackLayout>
 	</ContentPage.Content>
 </ContentPage>

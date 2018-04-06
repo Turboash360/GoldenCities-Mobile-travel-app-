@@ -42,6 +42,34 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="NorthAmerica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SouthAmerica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Africa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Asia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Australia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antartica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -61,6 +89,28 @@
     <Compile Include="ContinentsListView.xaml.cs">
       <DependentUpon>ContinentsListView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="ClassModels\ListClass.cs" />
+    <Compile Include="NorthAmerica.xaml.cs">
+      <DependentUpon>NorthAmerica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SouthAmerica.xaml.cs">
+      <DependentUpon>SouthAmerica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe.xaml.cs">
+      <DependentUpon>Europe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Africa.xaml.cs">
+      <DependentUpon>Africa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asia.xaml.cs">
+      <DependentUpon>Asia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Australia.xaml.cs">
+      <DependentUpon>Australia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Antartica.xaml.cs">
+      <DependentUpon>Antartica.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">
@@ -75,6 +125,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <None Include="Scripts\firebase.js" />
+    <None Include="Scripts\firebase-debug.js" />
+    <None Include="Scripts\firebase-simple-login.js" />
+    <None Include="Scripts\firebase-simple-login-debug.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassModels\" />

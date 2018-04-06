@@ -2,9 +2,98 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="GoldenCities.ContinentsListView">
-	<ContentPage.Content>
-        <Label Text="Seven Continents ListViews Under Construction! "
-        VerticalOptions="CenterAndExpand"/>
-	</ContentPage.Content>
+    xmlns:local="clr-namespace:GoldenCities"
+    x:Class="GoldenCities.ContinentsListView"
+    Padding="20,20,20,0"
+    >
+
+    <StackLayout>
+        <Grid   x:Name="HeaderGrid" >
+        <Grid.RowDefinitions>
+            <RowDefinition
+                Height="150" />
+        </Grid.RowDefinitions> 
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition
+                Width="*"
+                />
+             <ColumnDefinition
+                Width="2*"
+                />
+             <ColumnDefinition
+                Width="*"
+                />
+
+        </Grid.ColumnDefinitions>
+            <Label
+                Text="Seven Continents"
+                FontSize="21"
+                Grid.Row="0"
+                Grid.Column="1"
+               HorizontalTextAlignment="Center"
+            />
+
+        </Grid>
+
+        <Button
+            Text="North America"
+            Clicked="HandleClickedNA"
+            BorderColor="Blue"
+            BorderWidth="2"
+            BorderRadius="10"
+        />
+
+        <Button
+            Text="South America"
+            Clicked="HandleClickedSA"
+            BorderColor="Blue"
+            BorderWidth="2"
+            BorderRadius="10"
+        />
+
+        <Button
+            Text="Europe"
+            Clicked="HandleClickedEUR"
+            BorderColor="Blue"
+            BorderWidth="2"
+            BorderRadius="10"
+        />
+
+        <Button
+            Text="Africa"
+             Clicked="HandleClickedAF"
+            BorderColor="Blue"
+            BorderWidth="2"
+            BorderRadius="10"
+        />
+
+        <Button
+            Text="Asia"
+             Clicked="HandleClickedAS"
+            BorderColor="Blue"
+            BorderWidth="2"
+            BorderRadius="10"
+        />
+
+        <Button
+            Text="Australia/Oceania"
+             Clicked="HandleClickedAUS"
+            BorderColor="Blue"
+            BorderWidth="2"
+            BorderRadius="10"
+        />
+
+        <Button
+            Text="Antartica"
+             Clicked="HandleClickedANT"
+            BorderColor="Blue"
+            BorderWidth="2"
+            BorderRadius="10"
+        />
+
+        
+
+    </StackLayout>
+
+    
 </ContentPage>

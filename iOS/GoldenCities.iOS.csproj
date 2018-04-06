@@ -115,6 +115,10 @@
     <None Include="Info.plist" />
     <None Include="Entitlements.plist" />
     <None Include="packages.config" />
+    <None Include="Scripts\firebase.js" />
+    <None Include="Scripts\firebase-debug.js" />
+    <None Include="Scripts\firebase-simple-login.js" />
+    <None Include="Scripts\firebase-simple-login-debug.js" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Main.cs" />
