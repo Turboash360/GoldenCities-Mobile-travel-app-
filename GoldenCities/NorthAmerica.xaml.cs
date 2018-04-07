@@ -66,8 +66,8 @@ namespace GoldenCities
 
         void HandleMoreButton(object sender, System.EventArgs e)
         {
-            var menuItem = (MenuItem)sender;
-            var listclass = (ListClass)menuItem.CommandParameter;
+            var button = (Button)sender;
+            var listclass = (ListClass)button.CommandParameter;
             Navigation.PushAsync(new TravelMoreInfo(listclass));
         }
     }
