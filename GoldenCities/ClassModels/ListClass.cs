@@ -13,6 +13,12 @@ namespace GoldenCities.ClassModels
             set;
         }
 
+        public string websiteDescription
+        {
+            get;
+            set;
+        }
+
        
     }
 }

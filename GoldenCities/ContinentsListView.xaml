@@ -5,13 +5,19 @@
     xmlns:local="clr-namespace:GoldenCities"
     x:Class="GoldenCities.ContinentsListView"
     Padding="20,20,20,0"
-    >
+    BackgroundImage="Globe.png"
 
+    >
+    <ContentPage.Content>
+        
     <StackLayout>
+        
         <Grid   x:Name="HeaderGrid" >
         <Grid.RowDefinitions>
             <RowDefinition
-                Height="150" />
+                Height="*" />
+           <RowDefinition
+                Height="130" />      
         </Grid.RowDefinitions> 
         <Grid.ColumnDefinitions>
             <ColumnDefinition
@@ -26,7 +32,9 @@
 
         </Grid.ColumnDefinitions>
             <Label
-                Text="Seven Continents"
+                Text="Pick a Continent"
+                TextColor="Olive"
+                BackgroundColor="Black"
                 FontSize="21"
                 Grid.Row="0"
                 Grid.Column="1"
@@ -34,66 +42,133 @@
             />
 
         </Grid>
+        <Grid x:Name = "CenterGrid">
 
-        <Button
+            <Grid.RowDefinitions>
+                <RowDefinition
+                    Height="*"
+                />
+                <RowDefinition
+                    Height="*"
+                />
+                <RowDefinition
+                    Height="*"
+                />
+                <RowDefinition
+                    Height="*"
+                />
+                <RowDefinition
+                    Height="*"
+                />
+                <RowDefinition
+                    Height="*"
+                />
+                <RowDefinition
+                    Height="*"
+                />
+            </Grid.RowDefinitions>
+            
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition
+                    Width="*"
+                />
+                <ColumnDefinition
+                    Width="2*"
+                />
+
+                <ColumnDefinition
+                    Width="*"
+                />
+                
+            </Grid.ColumnDefinitions>
+
+
+       <Button
             Text="North America"
+            Grid.Row="0"
+            Grid.Column="1"
             Clicked="HandleClickedNA"
-            BorderColor="Blue"
+            BorderColor="Red"
+            BackgroundColor="Red"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="South America"
+            Grid.Row="1"
+            Grid.Column="1"
             Clicked="HandleClickedSA"
-            BorderColor="Blue"
+            BorderColor="Red"
+             BackgroundColor="Red"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="Europe"
+            Grid.Row="2"
+            Grid.Column="1"
             Clicked="HandleClickedEUR"
-            BorderColor="Blue"
+             BackgroundColor="Red"
+            BorderColor="Red"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="Africa"
+             Grid.Row="3"
+             Grid.Column="1"
              Clicked="HandleClickedAF"
-            BorderColor="Blue"
+                     BackgroundColor="Red"
+            BorderColor="Red"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="Asia"
+             Grid.Row="4"
+             Grid.Column="1"
              Clicked="HandleClickedAS"
-            BorderColor="Blue"
+                     BackgroundColor="Red"
+            BorderColor="Red"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="Australia/Oceania"
+             Grid.Row="5"
+             Grid.Column="1"
              Clicked="HandleClickedAUS"
-            BorderColor="Blue"
+            BorderColor="Red"
+                     BackgroundColor="Red"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="Antartica"
+             Grid.Row="6"
+             Grid.Column="1"
              Clicked="HandleClickedANT"
-            BorderColor="Blue"
+            BorderColor="Red"
+                     BackgroundColor="Red"
             BorderWidth="2"
             BorderRadius="10"
         />
+
+
+
+            
+        </Grid>
+
 
         
 
     </StackLayout>
 
-    
+    </ContentPage.Content>
 </ContentPage>
