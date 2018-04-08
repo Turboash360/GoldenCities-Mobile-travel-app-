@@ -5,7 +5,8 @@
     xmlns:local="clr-namespace:GoldenCities"
     x:Class="GoldenCities.NorthAmerica">
 	<StackLayout Spacing="12" Margin="10">
-        <Label Text="Best Cities in North America " HorizontalOptions="Center" />
+        <Label Text="Best Cities in North America " 
+        HorizontalOptions="Center" />
         <ListView 
             x:Name="NA" >
           
