@@ -21,17 +21,21 @@ namespace GoldenCities
             {
                 new ListClass()
                 {
-                    websiteName = "1. Lima, Peru"
+                    websiteName = "1. Lima, Peru",
+                    websiteDescription = "H",
+                        
                 },
 
                 new ListClass()
                 {
-                    websiteName = "2. Panama Canal, Panama"
+                    websiteName = "2. Panama Canal, Panama",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "3. Rio, Brazil"
+                    websiteName = "3. Rio, Brazil",
+                    websiteDescription = "H",
                 },
 
                
@@ -42,8 +46,8 @@ namespace GoldenCities
 
         void HandleMoreButton(object sender, System.EventArgs e)
         {
-            var button = (Button)sender;
-            var listclass = (ListClass)button.CommandParameter;
+            var menuItem = (MenuItem)sender;
+            var listclass = (ListClass)menuItem.CommandParameter;
             Navigation.PushAsync(new TravelMoreInfo(listclass));
         }
     }

@@ -22,16 +22,19 @@ namespace GoldenCities
                 new ListClass()
                 {
                     websiteName = "Cairo, Egypt",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
                     websiteName = "Seychelles",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
                     websiteName = "Durban, South Africa",
+                    websiteDescription = "H",
                 },
             };
 
@@ -40,8 +43,8 @@ namespace GoldenCities
 
         void HandleMoreButton(object sender, System.EventArgs e)
         {
-            var button = (Button)sender;
-            var listclass = (ListClass)button.CommandParameter;
+            var menuItem = (MenuItem)sender;
+            var listclass = (ListClass)menuItem.CommandParameter;
             Navigation.PushAsync(new TravelMoreInfo(listclass));
         }
 

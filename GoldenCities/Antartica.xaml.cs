@@ -22,8 +22,32 @@ namespace GoldenCities
                 new ListClass()
                 {
                     websiteName = "1. South Pole City, Antartica",
+                    websiteDescription = "H",
                 },
 
+                new ListClass()
+                {
+                    websiteName = "2. Happy Feat, Antartica",
+                    websiteDescription = "H",
+                },
+
+                new ListClass()
+                {
+                    websiteName = "3. Snowy Land, Antartica",
+                    websiteDescription = "H",
+                },
+
+                new ListClass()
+                {
+                    websiteName = "4, Dead Penguin",
+                    websiteDescription = "H",
+                },
+
+                new ListClass()
+                {
+                    websiteName = "5. Floating Ice Berg",
+                    websiteDescription = "H",
+                },
                
             };
 
@@ -32,8 +56,8 @@ namespace GoldenCities
 
         void HandleMoreButton(object sender, System.EventArgs e)
         {
-            var button = (Button)sender;
-            var listclass = (ListClass)button.CommandParameter;
+            var menuItem = (MenuItem)sender;
+            var listclass = (ListClass)menuItem.CommandParameter;
             Navigation.PushAsync(new TravelMoreInfo(listclass));
         }
 

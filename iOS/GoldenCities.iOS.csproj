@@ -104,6 +104,7 @@
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
+    <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\GoldPlane.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -128,6 +129,10 @@
     <BundleResource Include="Resources\GoldenCities.png" />
     <BundleResource Include="Resources\FutureCity.png" />
     <BundleResource Include="Resources\Globe.png" />
+    <BundleResource Include="Resources\GoldPlane.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ITunesArtwork Include="iTunesArtwork" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets" Condition="Exists('..\packages\Xamarin.Forms.2.5.0.121934\build\netstandard1.0\Xamarin.Forms.targets')" />

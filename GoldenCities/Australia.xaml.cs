@@ -22,12 +22,14 @@ namespace GoldenCities
             {
                 new ListClass()
                 {
-                    websiteName = "1. Sydney, Australia"
+                    websiteName = "1. Sydney, Australia",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "2. Alice Springs, Australia"
+                    websiteName = "2. Alice Springs, Australia",
+                    websiteDescription = "H",
                 },
             };
 
@@ -36,8 +38,8 @@ namespace GoldenCities
 
         void HandleMoreButton(object sender, System.EventArgs e)
         {
-            var button = (Button)sender;
-            var listclass = (ListClass)button.CommandParameter;
+            var menuItem = (MenuItem)sender;
+            var listclass = (ListClass)menuItem.CommandParameter;
             Navigation.PushAsync(new TravelMoreInfo(listclass));
         }
 

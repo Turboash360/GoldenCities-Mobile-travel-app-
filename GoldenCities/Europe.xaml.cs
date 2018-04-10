@@ -21,32 +21,39 @@ namespace GoldenCities
             {
                 new ListClass()
                 {
-                    websiteName = "1. London, UK"
+                    websiteName = "1. London, UK",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "2. Paris, France"
+                    websiteName = "2. Paris, France",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "3. Iceland"
+                    websiteName = "3. Iceland",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "4. Rome, Italy"
+                    websiteName = "4. Rome, Italy",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "5. Madrid, Spain"
+                    websiteName = "5. Madrid, Spain",
+                    websiteDescription = "H",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "6. Berlin, Germany"
+                    websiteName = "6. Berlin, Germany",
+                    websiteDescription = "H",
+                        
                 },
 
 
@@ -57,8 +64,8 @@ namespace GoldenCities
 
         void HandleMoreButton(object sender, System.EventArgs e)
         {
-            var button = (Button)sender;
-            var listclass = (ListClass)button.CommandParameter;
+            var menuItem = (MenuItem)sender;
+            var listclass = (ListClass)menuItem.CommandParameter;
             Navigation.PushAsync(new TravelMoreInfo(listclass));
         }
 
