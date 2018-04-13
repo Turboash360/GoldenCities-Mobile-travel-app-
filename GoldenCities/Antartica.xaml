@@ -29,13 +29,33 @@
             </ListView.ItemTemplate>
         </ListView>
         <!--
-        <Grid
-        <Button
 
+        <Grid Padding="5,0" RowSpacing="1" ColumnSpacing="1" BackgroundColor="Black">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="2*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
 
-        </Button>
+            
+       <Label x:Name="resultText" FontSize="48" FontAttributes="Bold" BackgroundColor="Black" Text="0"
+              TextColor="White" HorizontalTextAlignment="End" VerticalTextAlignment="Center"
+              LineBreakMode="NoWrap" Grid.ColumnSpan="4" />
 
-            ></Grid>
+       <Button Text="7" Grid.Row="1" Grid.Column="0"
+               BackgroundColor="White" TextColor="Black"
+               FontSize="36" BorderRadius="0" Clicked="OnSelectNumber" />
+
+        Just some sample code for the Grid function.....
         -->
     </StackLayout>
 
