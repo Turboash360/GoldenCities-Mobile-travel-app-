@@ -33,7 +33,7 @@ namespace GoldenCities
 
                 new ListClass()
                 {
-                    websiteName = "3. Dubai, United Arab Emirates",
+                    websiteName = "3. Dubai, UAE",
                     websiteDescription = "H",
                 },
 
