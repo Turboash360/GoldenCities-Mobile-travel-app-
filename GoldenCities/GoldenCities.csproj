@@ -132,10 +132,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Scripts\firebase.js" />
-    <None Include="Scripts\firebase-debug.js" />
-    <None Include="Scripts\firebase-simple-login.js" />
-    <None Include="Scripts\firebase-simple-login-debug.js" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassModels\" />
