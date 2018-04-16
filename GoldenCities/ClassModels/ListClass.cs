@@ -6,6 +6,12 @@ namespace GoldenCities.ClassModels
 {
     public class ListClass
     {
+
+        public ImageSource IconSource
+        {
+            get;
+            set;
+        } 
        
         public string websiteName
         {

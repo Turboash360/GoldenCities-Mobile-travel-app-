@@ -4,9 +4,125 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:GoldenCities"
     x:Class="GoldenCities.Antartica">
-    <StackLayout Spacing="12" Margin="10">
-        <Label Text="Best Cities in Antartica " 
-        HorizontalOptions="Center" />
+
+
+
+    <Grid x:Name="AntarticaGrid"
+            RowSpacing="3"
+            ColumnSpacing="3"
+            >
+
+     <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+             <RowDefinition Height="*"/>
+            
+         </Grid.RowDefinitions>
+         <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/> 
+            <ColumnDefinition Width="*"/> 
+            <ColumnDefinition Width="*"/> 
+            <ColumnDefinition Width="*"/> 
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+         </Grid.ColumnDefinitions> 
+
+
+      <StackLayout Grid.Row="0"
+            VerticalOptions="Center"
+            Grid.Column="5"
+            Grid.ColumnSpan="10">
+        <Label 
+                
+            Text="Best Cities in Antartica"
+             FontSize="35"
+            /> 
+    </StackLayout>
+
+
+     <Grid x:Name = "ButtonGrid" 
+            Grid.Row="1" 
+            Grid.Column="0"
+            Grid.ColumnSpan="5"
+            Grid.RowSpan="2"
+            RowSpacing="0" 
+            ColumnSpacing="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+           
+            <Button
+                
+                Grid.Row="0"
+                Text="1. South Pole City"
+                BackgroundColor="Orange"
+                TextColor="Black"
+                BorderRadius="5"
+            />
+             <Button
+                
+                Grid.Row="1"
+                Text="2. Mc.Murdo Station "
+                BackgroundColor="Orange"
+                TextColor="Black"
+                BorderRadius="5"
+
+            />
+             <Button
+                
+                Grid.Row="2"
+                Text="3. Snowy Land"
+                BackgroundColor="Orange"
+                TextColor="Black"
+                BorderRadius="5"
+            />
+        <Button
+            Grid.Row="3"
+            Text="4. Dead Penguin "
+            BackgroundColor="Orange"
+            TextColor="Black"
+            BorderRadius="5"
+            />
+        <Button
+            Grid.Row="4"
+            Text="5. Floating Iceberg"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            BorderRadius="5"
+            />
+      
+    </Grid>
+        
+    
+    <StackLayout 
+             Grid.Column="5"
+        Grid.Row="1"
+        Grid.RowSpan="3"
+        Grid.ColumnSpan="11"
+
+
+
+            Spacing="12" Margin="2">
+        
         <ListView 
             x:Name="ANT" >
  
@@ -59,4 +175,6 @@
         -->
     </StackLayout>
 
+    </Grid>
+        
 </ContentPage>
