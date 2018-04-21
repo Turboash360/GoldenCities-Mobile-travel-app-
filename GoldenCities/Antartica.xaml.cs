@@ -21,32 +21,33 @@ namespace GoldenCities
             {
                 new ListClass()
                 {
-                    websiteName = "1. South Pole City, Antartica",
-                    websiteDescription = "H",
+                    websiteName = "1. South Pole, Antartica",
+                    websiteDescription = "One of the hemispheres in Antartica.",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "2. Happy Feat, Antartica",
-                    websiteDescription = "H",
+                    websiteName = "2. Happy Feet, Antartica",
+                    websiteDescription = "A random city in Antartica",
                 },
 
                 new ListClass()
                 {
                     websiteName = "3. Snowy Land, Antartica",
-                    websiteDescription = "H",
+                    websiteDescription = "Another random city in Antartica",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "4, Dead Penguin",
-                    websiteDescription = "H",
+                    websiteName = "4,  Penguin",
+                    websiteDescription = "Another random city in Antartica",
                 },
 
                 new ListClass()
                 {
-                    websiteName = "5. Floating Ice Berg",
-                    websiteDescription = "H",
+                    websiteName = "5. Mc.Murdo Station",
+                    websiteDescription = "A research station. No one actually lives there, except" +
+                        "for people who actually work as scientists there and conducts research.",
                 },
                
             };

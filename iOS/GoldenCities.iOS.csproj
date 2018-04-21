@@ -94,6 +94,12 @@
     <Reference Include="Xamarin.Forms.Xaml">
       <HintPath>..\packages\Xamarin.Forms.2.5.1.444934\lib\Xamarin.iOS10\Xamarin.Forms.Xaml.dll</HintPath>
     </Reference>
+    <Reference Include="Xamarin.Forms.Maps">
+      <HintPath>..\packages\Xamarin.Forms.Maps.2.5.1.444934\lib\Xamarin.iOS10\Xamarin.Forms.Maps.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Maps.iOS">
+      <HintPath>..\packages\Xamarin.Forms.Maps.2.5.1.444934\lib\Xamarin.iOS10\Xamarin.Forms.Maps.iOS.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GoldenCities\GoldenCities.csproj">
@@ -126,6 +132,13 @@
     <BundleResource Include="Resources\FutureCity.png" />
     <BundleResource Include="Resources\Globe.png" />
     <BundleResource Include="Resources\GoldPlane.png" />
+    <BundleResource Include="Resources\Dubai.png" />
+    <BundleResource Include="Resources\Kuala Lumpur.png" />
+    <BundleResource Include="Resources\Maldives.png" />
+    <BundleResource Include="Resources\Moscow.png" />
+    <BundleResource Include="Resources\Singapore.png" />
+    <BundleResource Include="Resources\Taj Mahal.png" />
+    <BundleResource Include="Resources\Tokyo.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

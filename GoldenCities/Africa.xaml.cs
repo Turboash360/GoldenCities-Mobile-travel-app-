@@ -22,20 +22,28 @@ namespace GoldenCities
                 new ListClass()
                 {
                     websiteName = "Cairo, Egypt",
-                    websiteDescription = "H",
+                    websiteDescription = "It's the capital of Egypt.It's the largest city in Egypt, and" +
+                        "also the 15th largest city in the world.",
                 },
 
                 new ListClass()
                 {
                     websiteName = "Seychelles",
-                    websiteDescription = "H",
+                    websiteDescription = "It's a republic in France, and one of the sovereign states" +
+                        "in the Indian Ocean.",
                 },
 
                 new ListClass()
                 {
                     websiteName = "Durban, South Africa",
-                    websiteDescription = "H",
+                    websiteDescription = "Located on east coast of South Africa, and one of the largest cities.",
                 },
+
+                new ListClass()
+                {
+                    websiteName = "Adidas Ababa, Ethopia",
+                    websiteDescription = "It's the capital of Ethiopia."
+                }
             };
 
             AFR.ItemsSource = List;

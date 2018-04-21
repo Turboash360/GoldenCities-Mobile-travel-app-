@@ -81,7 +81,7 @@
              <Button
                 
                 Grid.Row="1"
-                Text="2. Mc.Murdo Station "
+                Text="2. Happy Feet "
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
@@ -104,7 +104,7 @@
             />
         <Button
             Grid.Row="4"
-            Text="5. Floating Iceberg"
+            Text="5. Mc.Murdo Station"
             BackgroundColor="Orange"
             TextColor="Black"
             BorderRadius="5"

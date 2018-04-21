@@ -15,6 +15,11 @@ namespace GoldenCities
             PopulateViewList();
         }
 
+        void Handle_Clicked_Delhi(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new DelhiPage());
+        }
+
         public void PopulateViewList()
         {
             var List = new ObservableCollection<ListClass>()
@@ -52,13 +57,13 @@ namespace GoldenCities
                 new ListClass()
                 {
                     websiteName = "6. Tokyo, Japan",
-                    websiteDescription = "H",
+                    websiteDescription = "The most well known city in Japan and also the capital city.",
                 },
 
                 new ListClass()
                 {
                     websiteName = "7. Moscow, Russia",
-                    websiteDescription = "H",
+                    websiteDescription = "The most well known city in Russia and also the capital city.",
 
 
                 },

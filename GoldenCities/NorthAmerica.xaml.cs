@@ -32,43 +32,50 @@ namespace GoldenCities
                 new ListClass()
                 {
                     websiteName = "2. New York City, Ny USA",
-                    websiteDescription = "H",
+                    websiteDescription = "Welcome to New York. This is the most populated city in the United States. " +
+                        "Really a great tourist spot. Super Great City with Statues Of Liberty." +
+                        ""
                 },
 
                 new ListClass()
                 {
-                    websiteName = "3. Honolulu, Hawaii",
-                    websiteDescription = "H",
+                    websiteName = "3. Honolulu, Hawaii USA",
+                    websiteDescription = "Ohau Blends the cosmopolitan luxury and breathtaking scenery" +
+                        "more than any othe Hawaiian Islands. The state capital Honolulu showcases the " +
+                        "Urban appeal. Nearby You" +
+                        ""
                 },
 
                 new ListClass()
                 {
                     websiteName = "4. Cancun, Mexico",
-                    websiteDescription = "H",
+                    websiteDescription = " It is a valuable tourist destination in Mexico. One of the" +
+                        "most well known cities in Mexico. It has a tropical climate.",
                 },
 
                 new ListClass()
                 {
                     websiteName = "5. Acapulco, Mexico",
-                    websiteDescription = "H",
+                    websiteDescription = "It is another well known city in Mexico. It has a tropical wet and " +
+                        "dry climate. It's the largest city in Mexico by far.",
                 },
 
                 new ListClass()
                 {
                     websiteName = "6. Mexico City, Mexico",
-                    websiteDescription = "H",
+                    websiteDescription = "It's the capital of Mexico.",
                 },
 
                 new ListClass()
                 {
                     websiteName = "7. Ontario, Canada",
-                    websiteDescription = "H",
+                    websiteDescription = "One of the most well known cities in Canada.",
                 },
 
                 new ListClass()
                 {
                     websiteName = "8. Toronto, Canada",
-                    websiteDescription = "H",
+                    websiteDescription = "Another one of the most well known cities in Canada.",
                 },
 
             };

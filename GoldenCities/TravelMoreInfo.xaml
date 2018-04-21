@@ -17,7 +17,17 @@
                TextColor="Navy"
                 
             />
+
+            <Image
+                Source = "{Binding IconResourceProperty}"
+            />
             
         </StackLayout>
+
+
+
+          
+       
+        
 	</ContentPage.Content>
 </ContentPage>
