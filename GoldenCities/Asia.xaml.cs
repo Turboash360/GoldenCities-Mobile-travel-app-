@@ -20,6 +20,11 @@ namespace GoldenCities
             Navigation.PushAsync(new DelhiPage());
         }
 
+        void Handle_Clicked_Male(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new MalePage());
+        }
+
         public void PopulateViewList()
         {
             var List = new ObservableCollection<ListClass>()

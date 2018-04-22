@@ -86,6 +86,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
+                Clicked="Handle_Clicked_Male"
 
             />
              <Button
