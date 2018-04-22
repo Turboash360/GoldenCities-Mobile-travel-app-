@@ -25,9 +25,9 @@ namespace GoldenCities
 
             var uri = new Uri(
                 string.Format(
-                    $"https://api.darksky.net/forecast/" +
+                    $"http://api.apixu.com/v1/current.json?key=" +
                     $"{Keys.WeatherForcastKey}" +
-                    $"/27.17,78.04"));
+                    $"&q=Delhi"));
            
             var request = new HttpRequestMessage();
             request.Method = HttpMethod.Get;
@@ -41,13 +41,23 @@ namespace GoldenCities
             {
                 var content = await response.Content.ReadAsStringAsync();
                 ForcastAPI = WeatherForcaster.FromJson(content);
+
+                Name.Text = "City: " + ForcastAPI.Location.Name;
+                Country.Text = "Country: " + ForcastAPI.Location.Country;
+                Time.Text = "Local Time: " + ForcastAPI.Location.Localtime;
+                Region.Text = "Region: " + ForcastAPI.Location.Region;
+                TemperatureF.Text = "Temperature(F): " + ForcastAPI.Current.TempF;
+                TemperatureC.Text = "Temperature(C): " + ForcastAPI.Current.TempC;
+                    
+
+                /*
                 TimeZone.Text = "TimeZone: " + ForcastAPI.Timezone;
                 //Time.Text = "Local Time: " + ForcastAPI.Daily.Data[0].SunriseTime;
                 TemperatureF.Text = "Temperature: " + ForcastAPI.Currently.Temperature + " Farenheit";
                 TemperatureC.Text = "Temperature: " + ForcastAPI.Currently.ApparentTemperature + " Farenheit";
                 Humidity.Text = "Humidity: " + ForcastAPI.Currently.Humidity;
                 WindSpeed.Text = "WindSpeed: " + ForcastAPI.Currently.WindSpeed + " " + ForcastAPI.Currently.WindGust;
-                //TempData = $"Current temperature in Delhi is {ForcastAPI.Daily.Data}";
+                //TempData = $"Current temperature in Delhi is {ForcastAPI.Daily.Data}";*/
             }
         }
     }

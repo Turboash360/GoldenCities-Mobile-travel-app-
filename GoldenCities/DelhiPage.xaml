@@ -28,11 +28,21 @@
             
         />
 
-
-        <Label
-            x:Name="TimeZone"
+        <Label 
+            x:Name="Name"
             HorizontalTextAlignment="Start"
         />
+
+        <Label 
+            x:Name="Country"
+            HorizontalTextAlignment="Start"
+        />
+
+        <Label 
+            x:Name="Region"
+            HorizontalTextAlignment="Start"
+        />
+
 
         <Label
             x:Name="Time"
@@ -44,20 +54,11 @@
             HorizontalTextAlignment="Start"
         />
 
-        <Label
+         <Label
             x:Name="TemperatureC"
             HorizontalTextAlignment="Start"
         />
 
-        <Label
-            x:Name="Humidity"
-            HorizontalTextAlignment="Start"
-        />
-
-        <Label
-            x:Name="WindSpeed"
-            HorizontalTextAlignment="Start"
-        />
 
        
 

@@ -86,6 +86,30 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="DubaiPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SingaporePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KualaLumpurPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TokyoPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoscowPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MaleMapsPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -140,6 +164,24 @@
     <Compile Include="Keys.cs" />
     <Compile Include="MalePage.xaml.cs">
       <DependentUpon>MalePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DubaiPage.xaml.cs">
+      <DependentUpon>DubaiPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SingaporePage.xaml.cs">
+      <DependentUpon>SingaporePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="KualaLumpurPage.xaml.cs">
+      <DependentUpon>KualaLumpurPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TokyoPage.xaml.cs">
+      <DependentUpon>TokyoPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MoscowPage.xaml.cs">
+      <DependentUpon>MoscowPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MaleMapsPage.xaml.cs">
+      <DependentUpon>MaleMapsPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

@@ -25,6 +25,31 @@ namespace GoldenCities
             Navigation.PushAsync(new MalePage());
         }
 
+        void Handle_Clicked_Dubai(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new DubaiPage());
+        }
+
+        void Handle_Clicked_Singapore(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new SingaporePage());
+        }
+
+        void Handle_Clicked_KualaLumpur(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new KualaLumpurPage());
+        }
+
+        void Handle_Clicked_Tokyo(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new TokyoPage());
+        }
+
+        void Handle_Clicked_Moscow(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new MoscowPage());
+        }
+
         public void PopulateViewList()
         {
             var List = new ObservableCollection<ListClass>()

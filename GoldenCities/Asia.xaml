@@ -96,6 +96,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
+                Clicked="Handle_Clicked_Dubai"
 
             />
 
@@ -106,6 +107,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
+                Clicked="Handle_Clicked_Singapore"
 
             />
 
@@ -116,6 +118,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
+                Clicked="Handle_Clicked_KualaLumpur"
 
             />
 
@@ -126,6 +129,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
+                Clicked="Handle_Clicked_Tokyo"
 
             />
 
@@ -136,6 +140,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
+                Clicked="Handle_Clicked_Moscow"
 
             />
 

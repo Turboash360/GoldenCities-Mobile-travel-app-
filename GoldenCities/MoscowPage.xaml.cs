@@ -7,18 +7,12 @@ using Xamarin.Forms;
 
 namespace GoldenCities
 {
-    public partial class MalePage : ContentPage
+    public partial class MoscowPage : ContentPage
     {
-        public MalePage()
+        public MoscowPage()
         {
             InitializeComponent();
         }
-
-        void Handle_ClickedMaps(object sender, System.EventArgs e)
-        {
-            Navigation.PushAsync(new MaleMapsPage());
-        }
-
 
         async void Handle_ClickedTemperature(object sender, System.EventArgs e)
         {
@@ -28,7 +22,7 @@ namespace GoldenCities
                 string.Format(
                     $"http://api.apixu.com/v1/current.json?key=" +
                     $"{Keys.WeatherForcastKey}" +
-                    $"&q=Malé"));
+                    $"&q=Moscow"));
 
             var request = new HttpRequestMessage();
             request.Method = HttpMethod.Get;
@@ -36,6 +30,7 @@ namespace GoldenCities
             request.Headers.Add("Application", "application / json");
 
             HttpResponseMessage response = await client.SendAsync(request);
+
             WeatherForcaster ForcastAPI = null;
             if (response.IsSuccessStatusCode)
             {
@@ -49,15 +44,16 @@ namespace GoldenCities
                 TemperatureF.Text = "Temperature(F): " + ForcastAPI.Current.TempF;
                 TemperatureC.Text = "Temperature(C): " + ForcastAPI.Current.TempC;
 
-                /*TimeZone.Text = "TimeZone: " + ForcastAPI.Timezone;
+
+                /*
+                TimeZone.Text = "TimeZone: " + ForcastAPI.Timezone;
                 //Time.Text = "Local Time: " + ForcastAPI.Daily.Data[0].SunriseTime;
-                TemperatureF.Text = "Actual Temperature: " + ForcastAPI.Currently.Temperature + " Farenheit";
-                TemperatureC.Text = "Feels Like: " + ForcastAPI.Currently.ApparentTemperature + " Farenheit";
-                //Humidity.Text = "Humidity: " + ForcastAPI.Currently.Humidity;
-                //WindSpeed.Text = "WindSpeed: " + ForcastAPI.Currently.WindSpeed + " " + ForcastAPI.Currently.WindGust;
+                TemperatureF.Text = "Temperature: " + ForcastAPI.Currently.Temperature + " Farenheit";
+                TemperatureC.Text = "Temperature: " + ForcastAPI.Currently.ApparentTemperature + " Farenheit";
+                Humidity.Text = "Humidity: " + ForcastAPI.Currently.Humidity;
+                WindSpeed.Text = "WindSpeed: " + ForcastAPI.Currently.WindSpeed + " " + ForcastAPI.Currently.WindGust;
                 //TempData = $"Current temperature in Delhi is {ForcastAPI.Daily.Data}";*/
             }
         }
-
     }
 }

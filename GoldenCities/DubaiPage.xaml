@@ -2,16 +2,17 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="GoldenCities.MalePage">
-	<StackLayout>
-       <Label
-             Text="Welcome to Male, Maldives"
+    x:Class="GoldenCities.DubaiPage">
+
+    <StackLayout>
+        <Label
+             Text="Welcome to Dubai, UAE"
             x:Name = "TempData"
         />
 
         <Button
             Text="Maps"
-            Clicked="Handle_ClickedMaps"
+
             
         />
 
@@ -28,7 +29,8 @@
             
         />
 
-         <Label 
+
+       <Label 
             x:Name="Name"
             HorizontalTextAlignment="Start"
         />
@@ -58,12 +60,11 @@
             x:Name="TemperatureC"
             HorizontalTextAlignment="Start"
         />
-
-
        
 
 
-        
-
     </StackLayout>
+
+
+    
 </ContentPage>

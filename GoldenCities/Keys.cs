@@ -3,6 +3,6 @@ namespace GoldenCities
 {
     public class Keys
     {
-        public const string WeatherForcastKey = "8966ce182f424624bd13cc7b05452547";
+        public const string WeatherForcastKey = "4a11600c7d624842b4f65418182204";
     }
 }
