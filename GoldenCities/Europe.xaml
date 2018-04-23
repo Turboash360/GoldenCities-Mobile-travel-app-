@@ -80,6 +80,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
+                Clicked="Handle_ClickedLondon"
             />
              <Button
                 

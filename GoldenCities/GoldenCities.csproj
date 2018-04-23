@@ -110,6 +110,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="LondonPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -182,6 +186,9 @@
     </Compile>
     <Compile Include="MaleMapsPage.xaml.cs">
       <DependentUpon>MaleMapsPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LondonPage.xaml.cs">
+      <DependentUpon>LondonPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

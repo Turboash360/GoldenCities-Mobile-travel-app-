@@ -14,7 +14,7 @@
                 Title="Selector Of Points"
                 TextColor="Blue"
                 x:Name = "PointsSelectors"
-
+                 SelectedIndexChanged="Handle_IndexChanged"
 
             >
             </Picker>

@@ -15,6 +15,11 @@ namespace GoldenCities
             PopulateViewList();
         }
 
+        void Handle_ClickedLondon(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new LondonPage());
+        }
+
         private void PopulateViewList()
         {
             var List = new ObservableCollection<ListClass>()
