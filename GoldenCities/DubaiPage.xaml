@@ -12,6 +12,7 @@
 
         <Button
             Text="Maps"
+            Clicked="Handle_ClickedMaps"
 
             
         />

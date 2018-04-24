@@ -14,6 +14,10 @@ namespace GoldenCities
             InitializeComponent();
         }
 
+        void Handle_ClickedMaps()
+        {
+            Navigation.PushAsync(new DubaiMaps());
+        }
 
         async void Handle_ClickedTemperature(object sender, System.EventArgs e)
         {
