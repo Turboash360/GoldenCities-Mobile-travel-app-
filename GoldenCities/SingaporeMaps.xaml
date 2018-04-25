@@ -34,12 +34,15 @@
             <StackLayout
                     Orientation="Horizontal"
                     >
+
+                
                 <Button 
-                    Text="Street"
+                    Text="Street"                   
                     TextColor="Blue"
                     HorizontalOptions="CenterAndExpand"
                     Clicked="Handle_ClickedStreet"
                 />
+
 
                 <Button 
                     Text="Satellite"
@@ -54,11 +57,34 @@
                     HorizontalOptions="CenterAndExpand"
                     Clicked="Handle_ClickedHybrid"
                 />
-                
-
-
 
             </StackLayout>
+
+            <StackLayout
+                Orientation="Horizontal"
+                >
+
+                <Image
+                   Source="Street.png"
+                   HorizontalOptions="CenterAndExpand" 
+                />
+
+                <Image
+                    Source="Satellite.png"
+                    HorizontalOptions="CenterAndExpand"
+                />
+
+                 <Image
+                    Source="Hybrid.png"
+                    HorizontalOptions="CenterAndExpand"
+                />
+
+            </StackLayout>
+
+
+              
+
+        
 
             
         </StackLayout>

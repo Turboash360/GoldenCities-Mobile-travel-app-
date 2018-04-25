@@ -60,6 +60,30 @@
 
             </StackLayout>
 
+
+
+            <StackLayout
+                Orientation="Horizontal"
+                >
+
+                <Image
+                   Source="Street.png"
+                   HorizontalOptions="CenterAndExpand" 
+                />
+
+                <Image
+                    Source="Satellite.png"
+                    HorizontalOptions="CenterAndExpand"
+                />
+
+                 <Image
+                    Source="Hybrid.png"
+                    HorizontalOptions="CenterAndExpand"
+                />
+
+            </StackLayout>
+
+
             
         </StackLayout>
     </ContentPage.Content>

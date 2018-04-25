@@ -114,6 +114,7 @@
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Contents.json" />
     <ImageAsset Include="Assets.xcassets\Contents.json" />
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\GoldPlane.png" />
+    <ImageAsset Include="Assets.xcassets\LaunchImage.launchimage\Contents.json" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
@@ -142,6 +143,10 @@
     <BundleResource Include="Resources\Singapore.png" />
     <BundleResource Include="Resources\Taj Mahal.png" />
     <BundleResource Include="Resources\Tokyo.png" />
+    <BundleResource Include="Resources\Hybrid.png" />
+    <BundleResource Include="Resources\Satellite.png" />
+    <BundleResource Include="Resources\Street.png" />
+    <BundleResource Include="Resources\GoldCity.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

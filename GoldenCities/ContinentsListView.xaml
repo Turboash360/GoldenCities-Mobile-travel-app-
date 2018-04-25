@@ -34,6 +34,7 @@
             <Label
                 Text="Pick a Continent"
                 TextColor="Olive"
+                Font="Bold"
                 BackgroundColor="Black"
                 FontSize="21"
                 Grid.Row="0"
@@ -85,32 +86,39 @@
 
        <Button
             Text="North America"
+            TextColor="Gold"
+             Font="Bold"
             Grid.Row="0"
             Grid.Column="1"
             Clicked="HandleClickedNA"
             BorderColor="Red"
-            BackgroundColor="Red"
+            BackgroundColor="Blue"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="South America"
+            TextColor="Gold"
+
+             Font="Bold"
             Grid.Row="1"
             Grid.Column="1"
             Clicked="HandleClickedSA"
             BorderColor="Red"
-             BackgroundColor="Red"
+             BackgroundColor="Blue"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="Europe"
+            TextColor="Gold"
+                     Font="Bold"
             Grid.Row="2"
             Grid.Column="1"
             Clicked="HandleClickedEUR"
-             BackgroundColor="Red"
+             BackgroundColor="Blue"
             BorderColor="Red"
             BorderWidth="2"
             BorderRadius="10"
@@ -118,10 +126,12 @@
 
         <Button
             Text="Africa"
+             TextColor="Gold"
+                     Font="Bold"
              Grid.Row="3"
              Grid.Column="1"
              Clicked="HandleClickedAF"
-                     BackgroundColor="Red"
+                     BackgroundColor="Blue"
             BorderColor="Red"
             BorderWidth="2"
             BorderRadius="10"
@@ -129,10 +139,12 @@
 
         <Button
             Text="Asia"
+             TextColor="Gold"
+                     Font="Bold"
              Grid.Row="4"
              Grid.Column="1"
              Clicked="HandleClickedAS"
-                     BackgroundColor="Red"
+                     BackgroundColor="Blue"
             BorderColor="Red"
             BorderWidth="2"
             BorderRadius="10"
@@ -140,22 +152,26 @@
 
         <Button
             Text="Australia/Oceania"
+             TextColor="Gold"
+                     Font="Bold"
              Grid.Row="5"
              Grid.Column="1"
              Clicked="HandleClickedAUS"
             BorderColor="Red"
-                     BackgroundColor="Red"
+                     BackgroundColor="Blue"
             BorderWidth="2"
             BorderRadius="10"
         />
 
         <Button
             Text="Antartica"
+             TextColor="Gold"
+                     Font="Bold"
              Grid.Row="6"
              Grid.Column="1"
              Clicked="HandleClickedANT"
             BorderColor="Red"
-                     BackgroundColor="Red"
+                     BackgroundColor="Blue"
             BorderWidth="2"
             BorderRadius="10"
         />

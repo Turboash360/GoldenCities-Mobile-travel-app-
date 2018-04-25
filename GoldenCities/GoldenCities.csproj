@@ -110,10 +110,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="LondonPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="DubaiMaps.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
@@ -133,6 +129,10 @@
     <EmbeddedResource Include="MoscowMaps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LondonPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -207,9 +207,6 @@
     <Compile Include="MaleMapsPage.xaml.cs">
       <DependentUpon>MaleMapsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LondonPage.xaml.cs">
-      <DependentUpon>LondonPage.xaml</DependentUpon>
-    </Compile>
     <Compile Include="DubaiMaps.xaml.cs">
       <DependentUpon>DubaiMaps.xaml</DependentUpon>
     </Compile>
@@ -224,6 +221,9 @@
     </Compile>
     <Compile Include="MoscowMaps.xaml.cs">
       <DependentUpon>MoscowMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LondonPage.xaml.cs">
+      <DependentUpon>LondonPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
