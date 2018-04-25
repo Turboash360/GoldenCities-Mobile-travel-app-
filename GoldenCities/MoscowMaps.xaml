@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps"
-    x:Class="GoldenCities.DubaiMaps">
+    x:Class="GoldenCities.MoscowMaps">
     <ContentPage.Content>
          <StackLayout
             VerticalOptions="StartAndExpand"
@@ -13,7 +13,7 @@
                 Title="Selector Of Points"
                 TextColor="Blue"
                 x:Name = "PointsSelectors"
-              SelectedIndexChanged="Handle_IndexChanged"
+                SelectedIndexChanged="Handle_IndexChanged"
 
             >
             </Picker>
@@ -26,7 +26,7 @@
                 VerticalOptions="FillAndExpand"
                 WidthRequest="400"
                 HeightRequest="500"
-                x:Name="DubaiLocMaps"
+                x:Name="MoscowLocMaps"
                 IsShowingUser="true"
                 MapType="Street" />
 

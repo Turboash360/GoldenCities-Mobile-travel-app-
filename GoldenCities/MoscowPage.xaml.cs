@@ -14,6 +14,11 @@ namespace GoldenCities
             InitializeComponent();
         }
 
+        void Handle_ClickedMaps(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new MoscowMaps());
+        }
+
         async void Handle_ClickedTemperature(object sender, System.EventArgs e)
         {
             HttpClient client = new HttpClient();

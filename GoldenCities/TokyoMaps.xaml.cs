@@ -8,25 +8,28 @@ using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
+
 namespace GoldenCities
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DubaiMaps : ContentPage
+    public partial class TokyoMaps : ContentPage
     {
-        public DubaiMaps()
+        public TokyoMaps()
         {
             InitializeComponent();
 
             var initialMapLocation = MapSpan.FromCenterAndRadius
-                                            (new Position(25.2048, 55.2708)
-                                             , Distance.FromMiles(50));
+                                            (new Position(35.6895, 139.6917)
+                                             , Distance.FromMiles(70));
 
-            DubaiLocMaps.MoveToRegion(initialMapLocation);
+            TokyoLocMaps.MoveToRegion(initialMapLocation);
+
 
             PlaceAMarker();
             Picker();
 
         }
+
 
         void Handle_IndexChanged(object sender, System.EventArgs e)
         {
@@ -36,20 +39,20 @@ namespace GoldenCities
             switch (touchIndex)
             {
                 case (0):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1750, 55.2708), Distance.FromMiles(2)));
+                    TokyoLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(35.7101, 139.8107), Distance.FromMiles(2)));
                     break;
                 case (1):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1304, 55.1171), Distance.FromMiles(2)));
+                    TokyoLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(35.6586, 139.7454), Distance.FromMiles(2)));
                     break;
                 case (2):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1336, 55.1204), Distance.FromMiles(2)));
+                    TokyoLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(35.3606, 138.7278), Distance.FromMiles(2)));
                     break;
                 case (3):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1974, 55.2791), Distance.FromMiles(2)));
+                    TokyoLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(35.6852, 139.7101), Distance.FromMiles(2)));
                     break;
-                case (4):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1319, 55.1184), Distance.FromMiles(2)));
-                    break;
+               /* case (4):
+                    TokyoLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(28.6562, 77.2410), Distance.FromMiles(2)));
+                    break;*/
 
 
             }
@@ -62,11 +65,11 @@ namespace GoldenCities
 
             var PointsSelectorSource = new ObservableCollection<string>();
 
-            PointsSelectorSource.Add("Dubai The Golden City");
-            PointsSelectorSource.Add("Atlantis Hotel");
-            PointsSelectorSource.Add("Aquaventure WaterPark");
-            PointsSelectorSource.Add("Dubai Underwater Aquarium");
-            PointsSelectorSource.Add("Lost Chambers Aquarium");
+            PointsSelectorSource.Add("Skytree");
+            PointsSelectorSource.Add("Tokyo Tower");
+            PointsSelectorSource.Add("Mount Fuji");
+            PointsSelectorSource.Add("Shinjuku Gyo-en");
+            //PointsSelectorSource.Add("Lotus Temple");
 
 
             PointsSelectors.ItemsSource = PointsSelectorSource;
@@ -76,79 +79,78 @@ namespace GoldenCities
 
 
 
-
         void Handle_ClickedHybrid(object sender, System.EventArgs e)
         {
-            DubaiLocMaps.MapType = MapType.Hybrid;
+            TokyoLocMaps.MapType = MapType.Hybrid;
         }
 
         void Handle_ClickedSatellight(object sender, System.EventArgs e)
         {
-            DubaiLocMaps.MapType = MapType.Satellite;
+            TokyoLocMaps.MapType = MapType.Satellite;
         }
 
         void Handle_ClickedStreet(object sender, System.EventArgs e)
         {
-            DubaiLocMaps.MapType = MapType.Street;
+            TokyoLocMaps.MapType = MapType.Street;
         }
+
+
+
 
 
         private void PlaceAMarker()
         {
-            var position = new Position(25.1750, 55.2708);
+            var position = new Position(35.7101, 139.8107);
             var pin = new Pin
             {
                 Type = PinType.Place,
                 Position = position,
-                Label = "Dubai",
+                Label = "Skytree",
                 Address = "custom detail info"
             };
 
-           var position2 = new Position(25.1304, 55.1171);
+            var position2 = new Position(35.6586, 139.7454);
             var pin2 = new Pin
             {
                 Type = PinType.Place,
                 Position = position2,
-                Label = "Atlantis Hotel",
-                Address = "The Best hotel in Dubai. Luxurious time to be spent relaxing."
+                Label = "Tokyo Tower",
+                Address = "custom detail info"
             };
 
-
-            var position3 = new Position(25.1336, 55.1204);
+            var position3 = new Position(35.3606, 138.7278);
             var pin3 = new Pin
             {
                 Type = PinType.Place,
                 Position = position3,
-                Label = "Aquaventure WaterPark",
+                Label = "Mount Fuji",
                 Address = "custom detail info"
             };
 
-
-            var position4 = new Position(25.1974, 55.2791);
+            var position4 = new Position(35.6852, 139.7101);
             var pin4 = new Pin
             {
                 Type = PinType.Place,
                 Position = position4,
-                Label = "Dubai Underwater Aquarium",
+                Label = "Shinjuku Gyo-en",
                 Address = "custom detail info"
             };
 
-
-            var position5 = new Position(25.1319, 55.1184);
+            /*
+            var position5 = new Position(28.5535, 78.2588);
             var pin5 = new Pin
             {
                 Type = PinType.Place,
                 Position = position5,
-                Label = "Lost Chambers Aquarium",
+                Label = "Lotus Temple",
                 Address = "custom detail info"
-            };
+            };*/
 
-            DubaiLocMaps.Pins.Add(pin);
-            DubaiLocMaps.Pins.Add(pin2);
-            DubaiLocMaps.Pins.Add(pin3);
-            DubaiLocMaps.Pins.Add(pin4);
-            DubaiLocMaps.Pins.Add(pin5);
+            TokyoLocMaps.Pins.Add(pin);
+            TokyoLocMaps.Pins.Add(pin2);
+            TokyoLocMaps.Pins.Add(pin3);
+            TokyoLocMaps.Pins.Add(pin4);
+            //TokyoLocMaps.Pins.Add(pin5);
         }
-
     }
 }

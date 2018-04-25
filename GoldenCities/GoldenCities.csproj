@@ -118,6 +118,22 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="SingaporeMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kuala_LumpurMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TokyoMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MoscowMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -196,6 +212,18 @@
     </Compile>
     <Compile Include="DubaiMaps.xaml.cs">
       <DependentUpon>DubaiMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SingaporeMaps.xaml.cs">
+      <DependentUpon>SingaporeMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Kuala_LumpurMaps.xaml.cs">
+      <DependentUpon>Kuala_LumpurMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TokyoMaps.xaml.cs">
+      <DependentUpon>TokyoMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MoscowMaps.xaml.cs">
+      <DependentUpon>MoscowMaps.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

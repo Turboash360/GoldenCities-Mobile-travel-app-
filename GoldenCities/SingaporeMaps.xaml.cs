@@ -8,25 +8,28 @@ using Xamarin.Forms;
 using Xamarin.Forms.Maps;
 using Xamarin.Forms.Xaml;
 
+
 namespace GoldenCities
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class DubaiMaps : ContentPage
+    public partial class SingaporeMaps : ContentPage
     {
-        public DubaiMaps()
+        public SingaporeMaps()
         {
             InitializeComponent();
 
             var initialMapLocation = MapSpan.FromCenterAndRadius
-                                            (new Position(25.2048, 55.2708)
+                                            (new Position(1.3521, 103.8125)
                                              , Distance.FromMiles(50));
 
-            DubaiLocMaps.MoveToRegion(initialMapLocation);
+            SingaporeLocMaps.MoveToRegion(initialMapLocation);
+
 
             PlaceAMarker();
             Picker();
 
         }
+
 
         void Handle_IndexChanged(object sender, System.EventArgs e)
         {
@@ -36,19 +39,19 @@ namespace GoldenCities
             switch (touchIndex)
             {
                 case (0):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1750, 55.2708), Distance.FromMiles(2)));
+                    SingaporeLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(1.2494, 103.8303), Distance.FromMiles(2)));
                     break;
                 case (1):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1304, 55.1171), Distance.FromMiles(2)));
+                    SingaporeLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(1.2868, 103.8545), Distance.FromMiles(2)));
                     break;
                 case (2):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1336, 55.1204), Distance.FromMiles(2)));
+                    SingaporeLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(1.2893, 103.8631), Distance.FromMiles(2)));
                     break;
                 case (3):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1974, 55.2791), Distance.FromMiles(2)));
+                    SingaporeLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(1.2816, 103.8636), Distance.FromMiles(2)));
                     break;
                 case (4):
-                    DubaiLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(25.1319, 55.1184), Distance.FromMiles(2)));
+                    SingaporeLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(1.3138, 103.8159), Distance.FromMiles(2)));
                     break;
 
 
@@ -62,11 +65,11 @@ namespace GoldenCities
 
             var PointsSelectorSource = new ObservableCollection<string>();
 
-            PointsSelectorSource.Add("Dubai The Golden City");
-            PointsSelectorSource.Add("Atlantis Hotel");
-            PointsSelectorSource.Add("Aquaventure WaterPark");
-            PointsSelectorSource.Add("Dubai Underwater Aquarium");
-            PointsSelectorSource.Add("Lost Chambers Aquarium");
+            PointsSelectorSource.Add("Sentosha");
+            PointsSelectorSource.Add("Merlion");
+            PointsSelectorSource.Add("Singapore Flyer");
+            PointsSelectorSource.Add("Garden by the Bay");
+            PointsSelectorSource.Add("Botanic Garden");
 
 
             PointsSelectors.ItemsSource = PointsSelectorSource;
@@ -76,79 +79,77 @@ namespace GoldenCities
 
 
 
-
         void Handle_ClickedHybrid(object sender, System.EventArgs e)
         {
-            DubaiLocMaps.MapType = MapType.Hybrid;
+            SingaporeLocMaps.MapType = MapType.Hybrid;
         }
 
         void Handle_ClickedSatellight(object sender, System.EventArgs e)
         {
-            DubaiLocMaps.MapType = MapType.Satellite;
+            SingaporeLocMaps.MapType = MapType.Satellite;
         }
 
         void Handle_ClickedStreet(object sender, System.EventArgs e)
         {
-            DubaiLocMaps.MapType = MapType.Street;
+            SingaporeLocMaps.MapType = MapType.Street;
         }
+
+
+
 
 
         private void PlaceAMarker()
         {
-            var position = new Position(25.1750, 55.2708);
+            var position = new Position(1.2494, 103.8303);
             var pin = new Pin
             {
                 Type = PinType.Place,
                 Position = position,
-                Label = "Dubai",
+                Label = "Sentosa",
                 Address = "custom detail info"
             };
 
-           var position2 = new Position(25.1304, 55.1171);
+            var position2 = new Position(1.2868, 103.8545);
             var pin2 = new Pin
             {
                 Type = PinType.Place,
                 Position = position2,
-                Label = "Atlantis Hotel",
-                Address = "The Best hotel in Dubai. Luxurious time to be spent relaxing."
+                Label = "Merlion",
+                Address = "custom detail info"
             };
 
-
-            var position3 = new Position(25.1336, 55.1204);
+            var position3 = new Position(1.2893, 103.8631);
             var pin3 = new Pin
             {
                 Type = PinType.Place,
                 Position = position3,
-                Label = "Aquaventure WaterPark",
+                Label = "Singapore Flyer",
                 Address = "custom detail info"
             };
 
-
-            var position4 = new Position(25.1974, 55.2791);
+            var position4 = new Position(1.2816, 103.8636);
             var pin4 = new Pin
             {
                 Type = PinType.Place,
                 Position = position4,
-                Label = "Dubai Underwater Aquarium",
+                Label = "Garden by the Bay",
                 Address = "custom detail info"
             };
 
-
-            var position5 = new Position(25.1319, 55.1184);
+            var position5 = new Position(1.3138, 103.8159);
             var pin5 = new Pin
             {
                 Type = PinType.Place,
                 Position = position5,
-                Label = "Lost Chambers Aquarium",
+                Label = "Singapore Botanic Gardens",
                 Address = "custom detail info"
             };
 
-            DubaiLocMaps.Pins.Add(pin);
-            DubaiLocMaps.Pins.Add(pin2);
-            DubaiLocMaps.Pins.Add(pin3);
-            DubaiLocMaps.Pins.Add(pin4);
-            DubaiLocMaps.Pins.Add(pin5);
+            SingaporeLocMaps.Pins.Add(pin);
+            SingaporeLocMaps.Pins.Add(pin2);
+            SingaporeLocMaps.Pins.Add(pin3);
+            SingaporeLocMaps.Pins.Add(pin4);
+            SingaporeLocMaps.Pins.Add(pin5);
         }
-
     }
 }
