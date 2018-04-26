@@ -73,7 +73,7 @@
             <Button
                 
                 Grid.Row="0"
-                Text="1. South Pole City"
+                Text="1. South Pole"
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
@@ -81,7 +81,7 @@
              <Button
                 
                 Grid.Row="1"
-                Text="2. Happy Feet "
+                Text="2. North Pole"
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
@@ -90,26 +90,12 @@
              <Button
                 
                 Grid.Row="2"
-                Text="3. Snowy Land"
+                Text="3.Mc.Murdo Station"
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
             />
-        <Button
-            Grid.Row="3"
-            Text="4. Dead Penguin "
-            BackgroundColor="Orange"
-            TextColor="Black"
-            BorderRadius="5"
-            />
-        <Button
-            Grid.Row="4"
-            Text="5. Mc.Murdo Station"
-            BackgroundColor="Orange"
-            TextColor="Black"
-            BorderRadius="5"
-            />
-      
+       
     </Grid>
         
     

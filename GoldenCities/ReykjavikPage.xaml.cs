@@ -7,17 +7,18 @@ using Xamarin.Forms;
 
 namespace GoldenCities
 {
-    public partial class LondonPage : ContentPage
+    public partial class ReykjavikPage : ContentPage
     {
-        public LondonPage()
+        public ReykjavikPage()
         {
             InitializeComponent();
         }
 
         void Handle_ClickedMaps(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new LondonMaps());
+            Navigation.PushAsync(new ReykjavikMap());
         }
+
 
         async void Handle_ClickedTemperature(object sender, System.EventArgs e)
         {
@@ -27,7 +28,7 @@ namespace GoldenCities
                 string.Format(
                     $"http://api.apixu.com/v1/current.json?key=" +
                     $"{Keys.WeatherForcastKey}" +
-                    $"&q=London"));
+                    $"&q=Reykjavik"));
 
             var request = new HttpRequestMessage();
             request.Method = HttpMethod.Get;
@@ -48,18 +49,8 @@ namespace GoldenCities
                 Region.Text = "Region: " + ForcastAPI.Location.Region;
                 TemperatureF.Text = "Temperature(F): " + ForcastAPI.Current.TempF;
                 TemperatureC.Text = "Temperature(C): " + ForcastAPI.Current.TempC;
-
-
-                /*
-                TimeZone.Text = "TimeZone: " + ForcastAPI.Timezone;
-                //Time.Text = "Local Time: " + ForcastAPI.Daily.Data[0].SunriseTime;
-                TemperatureF.Text = "Temperature: " + ForcastAPI.Currently.Temperature + " Farenheit";
-                TemperatureC.Text = "Temperature: " + ForcastAPI.Currently.ApparentTemperature + " Farenheit";
-                Humidity.Text = "Humidity: " + ForcastAPI.Currently.Humidity;
-                WindSpeed.Text = "WindSpeed: " + ForcastAPI.Currently.WindSpeed + " " + ForcastAPI.Currently.WindGust;
-                //TempData = $"Current temperature in Delhi is {ForcastAPI.Daily.Data}";*/
             }
         }
-
     }
 }
+

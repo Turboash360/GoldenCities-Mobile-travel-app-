@@ -20,6 +20,31 @@ namespace GoldenCities
             Navigation.PushAsync(new LondonPage());
         }
 
+        void Handle_ClickedParis(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new ParisPage());
+        }
+
+        void Handle_ClickedReykjavik(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new ReykjavikPage());
+        }
+
+        void Handle_ClickedRome(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new RomePage());
+        }
+
+        void Handle_ClickedMadrid(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new MadridPage());
+        }
+
+        void Handle_ClickedBerlin(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new BerlinPage());
+        }
+
         private void PopulateViewList()
         {
             var List = new ObservableCollection<ListClass>()

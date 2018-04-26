@@ -2,10 +2,10 @@
 <ContentPage 
     xmlns="http://xamarin.com/schemas/2014/forms" 
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
-    x:Class="GoldenCities.LondonPage">
-	<StackLayout>
+    x:Class="GoldenCities.MadridPage">
+    <StackLayout>
     <Label
-             Text="Welcome to London, United Kingdom"
+             Text="Welcome to Madrid, Spain"
             x:Name = "TempData"
         />
 
@@ -61,4 +61,4 @@
 
         </StackLayout>
        
-</ContentPage>
+</ContentPage> 
