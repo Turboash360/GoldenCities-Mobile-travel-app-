@@ -40,13 +40,22 @@
 
     <StackLayout Grid.Row="0"
             VerticalOptions="Center"
-            Grid.Column="5"
-            Grid.ColumnSpan="10">
+            Orientation="Horizontal"
+            Grid.Column="1"
+            Grid.ColumnSpan="15">
+
+
+        <Image
+            Source="Asia.png"
+            />
+            
         <Label 
-                
+             Margin="15"   
             Text="Best Cities in Asia"
-             FontSize="35"
-            /> 
+             FontSize="35"                
+            />
+
+            
     </StackLayout>
         
 

@@ -147,6 +147,9 @@
     <BundleResource Include="Resources\Satellite.png" />
     <BundleResource Include="Resources\Street.png" />
     <BundleResource Include="Resources\GoldCity.png" />
+    <BundleResource Include="Resources\Asia.png" />
+    <BundleResource Include="Resources\Europe.png" />
+    <BundleResource Include="Resources\Antartica.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

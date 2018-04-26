@@ -17,7 +17,7 @@ namespace GoldenCities
             InitializeComponent();
 
             var initialMapLocation = MapSpan.FromCenterAndRadius
-                                            (new Position(28.7041, 77.1025)
+                                            (new Position(51.5106, -0.1280)
                                              , Distance.FromMiles(150));
 
             LondonLocMaps.MoveToRegion(initialMapLocation);
@@ -37,37 +37,33 @@ namespace GoldenCities
             switch (touchIndex)
             {
                 case (0):
-                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(27.1750, 78.0422), Distance.FromMiles(2)));
+                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(51.5037, -0.1246), Distance.FromMiles(2)));
                     break;
                 case (1):
-                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(27.1795, 78.0211), Distance.FromMiles(2)));
+                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(51.4991, -0.1079), Distance.FromMiles(2)));
                     break;
                 case (2):
-                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(28.6129, 77.2295), Distance.FromMiles(2)));
+                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(51.5146, -0.1172), Distance.FromMiles(2)));
                     break;
                 case (3):
-                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(28.6562, 77.2410), Distance.FromMiles(2)));
+                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(51.4994, -0.0999), Distance.FromMiles(2)));
                     break;
                 case (4):
-                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(28.6562, 77.2410), Distance.FromMiles(2)));
+                    LondonLocMaps.MoveToRegion(MapSpan.FromCenterAndRadius(new Position(51.5143, -0.1303), Distance.FromMiles(2)));
                     break;
-
-
             }
         }
-
-
         private void Picker()
         {
             PointsSelectors.SelectedIndex = 0;
 
             var PointsSelectorSource = new ObservableCollection<string>();
 
-            PointsSelectorSource.Add("London Place 1");
-            PointsSelectorSource.Add("London Place 2");
-            PointsSelectorSource.Add("London Place 3");
-            PointsSelectorSource.Add("London Place 4");
-            PointsSelectorSource.Add("London Place 5");
+            PointsSelectorSource.Add("Big Ben ");
+            PointsSelectorSource.Add("South Bank ");
+            PointsSelectorSource.Add("London Transport Museum ");
+            PointsSelectorSource.Add("Imperial War Museum ");
+            PointsSelectorSource.Add("London Square");
 
             PointsSelectors.ItemsSource = PointsSelectorSource;
 
@@ -92,48 +88,48 @@ namespace GoldenCities
         }
         private void PlaceAMarker()
         {
-            var position = new Position(27.1750, 78.0422);
+            var position = new Position(51.5037, -0.1246);
             var pin = new Pin
             {
                 Type = PinType.Place,
                 Position = position,
-                Label = "London Place 1",
+                Label = "Big Ben",
                 Address = "custom detail info"
             };
 
-            var position2 = new Position(27.1795, 78.0211);
+            var position2 = new Position(51.4991, -0.1079);
             var pin2 = new Pin
             {
                 Type = PinType.Place,
                 Position = position2,
-                Label = "London Place 2",
+                Label = "South Bank",
                 Address = "custom detail info"
             };
 
-            var position3 = new Position(28.6129, 77.2295);
+            var position3 = new Position(51.5146, -0.1172);
             var pin3 = new Pin
             {
                 Type = PinType.Place,
                 Position = position3,
-                Label = "London Place 3",
+                Label = "London Transport Museum",
                 Address = "custom detail info"
             };
 
-            var position4 = new Position(28.6562, 77.2410);
+            var position4 = new Position(51.4994, -0.0999);
             var pin4 = new Pin
             {
                 Type = PinType.Place,
                 Position = position4,
-                Label = "London Place 4",
+                Label = "Imperial War Museum",
                 Address = "custom detail info"
             };
 
-            var position5 = new Position(28.5535, 78.2588);
+            var position5 = new Position(51.5143, -0.1303);
             var pin5 = new Pin
             {
                 Type = PinType.Place,
                 Position = position5,
-                Label = "London Place 5",
+                Label = "London Square",
                 Address = "custom detail info"
             };
 

@@ -40,14 +40,24 @@
     <StackLayout 
             Grid.Row="0"
             VerticalOptions="Center"
-            Grid.Column="3"
+            Grid.Column="1"
+            Orientation="Horizontal"
             Grid.ColumnSpan="15"
             >
+
+            <Image
+                Source="Europe.png"
+
+            />
+
+            
             <Label
-              Text="Best Cities from Countries in Europe"
+              Text="Best Cities in Europe"
              FontSize="35"
 
             />
+
+
 
 
     </StackLayout>

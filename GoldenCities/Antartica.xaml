@@ -40,8 +40,16 @@
 
       <StackLayout Grid.Row="0"
             VerticalOptions="Center"
-            Grid.Column="5"
-            Grid.ColumnSpan="10">
+            Orientation="Horizontal"
+            Grid.Column="1"
+            Grid.ColumnSpan="15">
+
+
+            <Image
+                Source="Antartica.png"
+
+            />
+            
         <Label 
                 
             Text="Best Cities in Antartica"
