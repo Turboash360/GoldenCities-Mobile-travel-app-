@@ -115,6 +115,23 @@
           Clicked="Handle_ClickedRegister"
 
         />
+            <Button 
+          Grid.Row="2"
+          Grid.Column="2"
+          Text="Guests"
+          BorderWidth="1"
+          BackgroundColor="Silver"
+          Clicked="Handle_ClickedContinents"
+        />
+        <Label
+            Grid.Row="3"
+            Grid.Column="1"
+            Text="  1st time guests"
+            VerticalOptions="Start" 
+    HorizontalOptions="Center"
+    FontSize="24"
+    TextColor="Black"
+            />
 
         </Grid>
     

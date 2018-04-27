@@ -42,139 +42,139 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="NorthAmerica.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SouthAmerica.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Africa.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Australia.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Antartica.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="TravelMoreInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="DelhiPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DelhiMaps.xaml">
+    <EmbeddedResource Include="Asia\DelhiMaps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="MalePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DubaiPage.xaml">
+    <EmbeddedResource Include="Asia\DelhiPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="SingaporePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="KualaLumpurPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TokyoPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MoscowPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MaleMapsPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="DubaiMaps.xaml">
+    <EmbeddedResource Include="Asia\DubaiMaps.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="SingaporeMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Kuala_LumpurMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="TokyoMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="MoscowMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="LondonPage.xaml">
+    <EmbeddedResource Include="Asia\DubaiPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="ParisPage.xaml">
+    <EmbeddedResource Include="Asia\Kuala_LumpurMaps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReykjavikPage.xaml">
+    <EmbeddedResource Include="Asia\MaleMapsPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="RomePage.xaml">
+    <EmbeddedResource Include="Asia\MalePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="MadridPage.xaml">
+    <EmbeddedResource Include="Asia\KualaLumpurPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="BerlinPage.xaml">
+    <EmbeddedResource Include="Asia\MoscowMaps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="LondonMaps.xaml">
+    <EmbeddedResource Include="Asia\MoscowPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ParisMaps.xaml">
+    <EmbeddedResource Include="Asia\SingaporeMaps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="ReykjavikMaps.xaml">
+    <EmbeddedResource Include="Asia\SingaporePage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="RomeMaps.xaml">
+    <EmbeddedResource Include="Asia\TokyoMaps.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="BerlinMaps.xaml">
+    <EmbeddedResource Include="Asia\TokyoPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="MadridMaps.xaml">
+    <EmbeddedResource Include="Asia\Asia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\BerlinMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\BerlinPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\Europe.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\LondonMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\LondonPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\MadridMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\MadridPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\ParisMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\ParisPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\ReykjavikMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\ReykjavikPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\RomeMaps.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Europe\RomePage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Africa\Africa.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Antartica\Antartica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Australia\Australia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="North America\NorthAmerica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="South America\SouthAmerica.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -198,113 +198,120 @@
       <DependentUpon>ContinentsListView.xaml</DependentUpon>
     </Compile>
     <Compile Include="ClassModels\ListClass.cs" />
-    <Compile Include="NorthAmerica.xaml.cs">
-      <DependentUpon>NorthAmerica.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SouthAmerica.xaml.cs">
-      <DependentUpon>SouthAmerica.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe.xaml.cs">
-      <DependentUpon>Europe.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Africa.xaml.cs">
-      <DependentUpon>Africa.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia.xaml.cs">
-      <DependentUpon>Asia.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Australia.xaml.cs">
-      <DependentUpon>Australia.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Antartica.xaml.cs">
-      <DependentUpon>Antartica.xaml</DependentUpon>
-    </Compile>
     <Compile Include="TravelMoreInfo.xaml.cs">
       <DependentUpon>TravelMoreInfo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DelhiPage.xaml.cs">
-      <DependentUpon>DelhiPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="DelhiMaps.xaml.cs">
-      <DependentUpon>DelhiMaps.xaml</DependentUpon>
-    </Compile>
     <Compile Include="ClassModels\WeatherForcaster.cs" />
     <Compile Include="Keys.cs" />
-    <Compile Include="MalePage.xaml.cs">
-      <DependentUpon>MalePage.xaml</DependentUpon>
+    <Compile Include="Asia\DelhiMaps.xaml.cs">
+      <DependentUpon>DelhiMaps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="DubaiPage.xaml.cs">
-      <DependentUpon>DubaiPage.xaml</DependentUpon>
+    <Compile Include="Asia\DelhiPage.xaml.cs">
+      <DependentUpon>DelhiPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SingaporePage.xaml.cs">
-      <DependentUpon>SingaporePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="KualaLumpurPage.xaml.cs">
-      <DependentUpon>KualaLumpurPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="TokyoPage.xaml.cs">
-      <DependentUpon>TokyoPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MoscowPage.xaml.cs">
-      <DependentUpon>MoscowPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="MaleMapsPage.xaml.cs">
-      <DependentUpon>MaleMapsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="DubaiMaps.xaml.cs">
+    <Compile Include="Asia\DubaiMaps.xaml.cs">
       <DependentUpon>DubaiMaps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="SingaporeMaps.xaml.cs">
-      <DependentUpon>SingaporeMaps.xaml</DependentUpon>
+    <Compile Include="Asia\DubaiPage.xaml.cs">
+      <DependentUpon>DubaiPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Kuala_LumpurMaps.xaml.cs">
+    <Compile Include="Asia\Kuala_LumpurMaps.xaml.cs">
       <DependentUpon>Kuala_LumpurMaps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="TokyoMaps.xaml.cs">
-      <DependentUpon>TokyoMaps.xaml</DependentUpon>
+    <Compile Include="Asia\MaleMapsPage.xaml.cs">
+      <DependentUpon>MaleMapsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MoscowMaps.xaml.cs">
+    <Compile Include="Asia\MalePage.xaml.cs">
+      <DependentUpon>MalePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asia\KualaLumpurPage.xaml.cs">
+      <DependentUpon>KualaLumpurPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Asia\MoscowMaps.xaml.cs">
       <DependentUpon>MoscowMaps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LondonPage.xaml.cs">
-      <DependentUpon>LondonPage.xaml</DependentUpon>
+    <Compile Include="Asia\MoscowPage.xaml.cs">
+      <DependentUpon>MoscowPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ParisPage.xaml.cs">
-      <DependentUpon>ParisPage.xaml</DependentUpon>
+    <Compile Include="Asia\SingaporeMaps.xaml.cs">
+      <DependentUpon>SingaporeMaps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ReykjavikPage.xaml.cs">
-      <DependentUpon>ReykjavikPage.xaml</DependentUpon>
+    <Compile Include="Asia\SingaporePage.xaml.cs">
+      <DependentUpon>SingaporePage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="RomePage.xaml.cs">
-      <DependentUpon>RomePage.xaml</DependentUpon>
+    <Compile Include="Asia\TokyoMaps.xaml.cs">
+      <DependentUpon>TokyoMaps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MadridPage.xaml.cs">
-      <DependentUpon>MadridPage.xaml</DependentUpon>
+    <Compile Include="Asia\TokyoPage.xaml.cs">
+      <DependentUpon>TokyoPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="BerlinPage.xaml.cs">
-      <DependentUpon>BerlinPage.xaml</DependentUpon>
+    <Compile Include="Asia\Asia.xaml.cs">
+      <DependentUpon>Asia.xaml</DependentUpon>
     </Compile>
-    <Compile Include="LondonMaps.xaml.cs">
-      <DependentUpon>LondonMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ParisMaps.xaml.cs">
-      <DependentUpon>ParisMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="ReykjavikMaps.xaml.cs">
-      <DependentUpon>ReykjavikMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="RomeMaps.xaml.cs">
-      <DependentUpon>RomeMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="BerlinMaps.xaml.cs">
+    <Compile Include="Europe\BerlinMaps.xaml.cs">
       <DependentUpon>BerlinMaps.xaml</DependentUpon>
     </Compile>
-    <Compile Include="MadridMaps.xaml.cs">
+    <Compile Include="Europe\BerlinPage.xaml.cs">
+      <DependentUpon>BerlinPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\Europe.xaml.cs">
+      <DependentUpon>Europe.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\LondonMaps.xaml.cs">
+      <DependentUpon>LondonMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\LondonPage.xaml.cs">
+      <DependentUpon>LondonPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\MadridMaps.xaml.cs">
       <DependentUpon>MadridMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\MadridPage.xaml.cs">
+      <DependentUpon>MadridPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\ParisMaps.xaml.cs">
+      <DependentUpon>ParisMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\ParisPage.xaml.cs">
+      <DependentUpon>ParisPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\ReykjavikMaps.xaml.cs">
+      <DependentUpon>ReykjavikMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\ReykjavikPage.xaml.cs">
+      <DependentUpon>ReykjavikPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\RomeMaps.xaml.cs">
+      <DependentUpon>RomeMaps.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Europe\RomePage.xaml.cs">
+      <DependentUpon>RomePage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Africa\Africa.xaml.cs">
+      <DependentUpon>Africa.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Antartica\Antartica.xaml.cs">
+      <DependentUpon>Antartica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Australia\Australia.xaml.cs">
+      <DependentUpon>Australia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="North America\NorthAmerica.xaml.cs">
+      <DependentUpon>NorthAmerica.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="South America\SouthAmerica.xaml.cs">
+      <DependentUpon>SouthAmerica.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassModels\" />
+    <Folder Include="Asia\" />
+    <Folder Include="Europe\" />
+    <Folder Include="North America\" />
+    <Folder Include="South America\" />
+    <Folder Include="Africa\" />
+    <Folder Include="Australia\" />
+    <Folder Include="Antartica\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

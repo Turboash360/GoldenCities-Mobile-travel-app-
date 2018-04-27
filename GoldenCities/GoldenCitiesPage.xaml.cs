@@ -24,8 +24,11 @@ namespace GoldenCities
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(Handle_ClickedRegister)}");
             Navigation.PushAsync(new RegisterActivity());
         }
-
-
+        void Handle_ClickedContinents (object sender, System.EventArgs e)
+        {
+            Debug.WriteLine($"**** {this.GetType().Name}.{nameof(Handle_ClickedRegister)}");
+            Navigation.PushAsync(new ContinentsListView());
+        }
 
     }
 }
