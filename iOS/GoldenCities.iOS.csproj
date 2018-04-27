@@ -156,6 +156,8 @@
     <BundleResource Include="Resources\madrid.jpg" />
     <BundleResource Include="Resources\paris.jpg" />
     <BundleResource Include="Resources\reykjavik.jpg" />
+    <BundleResource Include="Resources\North_A.png" />
+    <BundleResource Include="Resources\LA.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

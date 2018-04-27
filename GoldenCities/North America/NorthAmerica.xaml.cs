@@ -21,6 +21,7 @@ namespace GoldenCities
             {
                 new ListClass()
                 {
+                    IconSource = "LA.png",
                     websiteName = "1. Los Angeles, CA USA",
                     websiteDescription = "Los Angeles is the second largest city in the United States in terms of population and " +
                         "one of the largest in terms of area. It is the center of a five-county metropolitan area and is considered " +

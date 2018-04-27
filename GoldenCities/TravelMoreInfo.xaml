@@ -4,30 +4,34 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
     x:Class="GoldenCities.TravelMoreInfo"
     Title="More Travel Info"
-    BackgroundColor="Teal"
-    >
-	<ContentPage.Content>
+    BackgroundColor="Teal">
+
+    <Grid
+        BackgroundColor="White"
+        RowSpacing="4">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
         <StackLayout
-            VerticalOptions="Center"
-            HorizontalOptions="Center"
-            >
-            <Label
-               Text="{Binding websiteDescription}"
-               Font="24" 
-               TextColor="Navy"
-                
-            />
-
+            Grid.Row="0">
+             <Label
+                Text="{Binding websiteDescription}"
+                FontSize="25"
+                HorizontalOptions="Center"/> 
             <Image
-                Source = "{Binding IconResourceProperty}"
-            />
-            
+                Source="{Binding IconSource}"
+                Scale=".5"/>
+              
         </StackLayout>
+       </Grid>
 
-
-
-          
-       
-        
-	</ContentPage.Content>
 </ContentPage>
