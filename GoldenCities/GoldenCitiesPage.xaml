@@ -71,6 +71,7 @@
 
             >
 
+
             
         
 	<Label 
@@ -87,17 +88,32 @@
          </StackLayout>
 
 
-        <Image
-            Grid.Row="2"
+
+
+         <Label
+            Grid.Row="1"
             Grid.Column="1"
-            Grid.RowSpan="3"
             Grid.ColumnSpan="3"
-
-
+            Text="1st time users, click on guests"
+            VerticalOptions="Start" 
+            HorizontalOptions="Center"
+            FontSize="24"
+            TextColor="Gold"
+            BackgroundColor="Blue"
         />
 
+
+         <StackLayout 
+            Grid.Row="7"
+            Grid.RowSpan="2"
+            Grid.ColumnSpan="5"
+            BackgroundColor="Black"
+            >
+
+        </StackLayout>
+
       <Button 
-          Grid.Row="1"
+          Grid.Row="7"
           Grid.Column="1"
           Text="Login"
           BorderWidth="1"
@@ -107,31 +123,36 @@
         />
 
      <Button 
-          Grid.Row="1"
-          Grid.Column="3"
+          Grid.Row="7"
+          Grid.Column="2"
           Text="Register"
           BorderWidth="1"
           BackgroundColor="Silver"
           Clicked="Handle_ClickedRegister"
 
         />
-            <Button 
-          Grid.Row="2"
-          Grid.Column="2"
+        <Button 
+          Grid.Row="7"
+          Grid.Column="3"
           Text="Guests"
           BorderWidth="1"
           BackgroundColor="Silver"
           Clicked="Handle_ClickedContinents"
         />
-        <Label
-            Grid.Row="3"
+
+        <Button
+            Grid.Row="8"
+
             Grid.Column="1"
-            Text="  1st time guests"
-            VerticalOptions="Start" 
-    HorizontalOptions="Center"
-    FontSize="24"
-    TextColor="Black"
-            />
+            Grid.ColumnSpan="3"
+            Text= "Check Currency Status"
+            BackgroundColor="Silver"
+            Clicked="Handle_ClickedMoney"
+
+        />
+       
+
+       
 
         </Grid>
     

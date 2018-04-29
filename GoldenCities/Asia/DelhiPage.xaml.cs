@@ -9,6 +9,7 @@ namespace GoldenCities
 {
     public partial class DelhiPage : ContentPage
     {
+
         public DelhiPage()
         {
             InitializeComponent();
@@ -19,6 +20,38 @@ namespace GoldenCities
             Navigation.PushAsync(new DelhiMaps());
         }
 
+        /*
+        async void Handle_ClickedCurrency(object sender, System.EventArgs e)
+        {
+
+            HttpClient client = new HttpClient();
+
+            var uri = new Uri(
+                string.Format(
+                    $"http://www.apilayer.net/api/live?access_key=" +
+                    $"{TransKeys.CurrencyKey}"
+                    ));
+            
+
+            var request = new HttpRequestMessage();
+            request.Method = HttpMethod.Get;
+            request.RequestUri = uri;
+            request.Headers.Add("Application", "application / json");
+
+            HttpResponseMessage response = await client.SendAsync(request);
+
+            Currency Money = null;
+            if(response.IsSuccessStatusCode)
+            {
+                var content = await response.Content.ReadAsStringAsync();
+                Money = Currency.FromJson(content);
+                Source.Text = Money.Source;
+
+            }
+            
+        }*/
+
+      
         async void Handle_ClickedTemperature(object sender, System.EventArgs e)
         {
             HttpClient client = new HttpClient();
@@ -26,7 +59,7 @@ namespace GoldenCities
             var uri = new Uri(
                 string.Format(
                     $"http://api.apixu.com/v1/current.json?key=" +
-                    $"{Keys.WeatherForcastKey}" +
+                    $"{TransKeys.WeatherForcastKey}" +
                     $"&q=Delhi"));
            
             var request = new HttpRequestMessage();

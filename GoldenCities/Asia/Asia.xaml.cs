@@ -56,42 +56,60 @@ namespace GoldenCities
             {
                 new ListClass()
                 {
+                    IconSource = "Taj_Mahal.png",
                     websiteName = "1. Delhi/Agra, India",
-                    websiteDescription = "H",
+                    websiteDescription = "India's capital and major gateway of the country, " +
+                        "contemporary Delhi is bustling metropolis, which successfully " +
+                        "combines in its fold the ancient and the modern. Its strategic " +
+                        "location was one of the prime reasons why successive dynasties " +
+                        "chose it as their seat of power. It is one of the most populates" +
+                        "city in the world and also in India. There are some wonderful tourist attractions" +
+                        "such as Taj Mahal. ", 
                 },
 
                 new ListClass()
                 {
+                    IconSource = "Maldives.png",
                     websiteName = "2. Male, Maldives",
-                    websiteDescription = "H",
+                    websiteDescription = "The isolated city in the island of Maldives, off coast of the Indian" +
+                        "Ocean where there is enjoyable time in doin watersports activities.",
                 },
 
                 new ListClass()
                 {
+                    IconSource = "Dubai.png",
                     websiteName = "3. Dubai, UAE",
-                    websiteDescription = "H",
+                    websiteDescription = "One of the most luxurious cities in the Arabian Peninsula." +
+                        "Most of the tourist from all over the world come to this city to visit this artificial" +
+                        "futuristic city.",
                 },
 
                 new ListClass()
                 {
+                    IconSource = "Singapore.png",
                     websiteName = "4. Singapore, Singapore",
-                    websiteDescription = "H",
+                    websiteDescription = "One of the luxurious cities in South East Asia. Tourist come here to" +
+                        "visit the merilion, and the sentosa islands. ",
                 },
 
                 new ListClass()
                 {
+                    IconSource = "Kuala_Lumpur.png",
                     websiteName = "5. Kuala Lumpur, Malaysia",
-                    websiteDescription = "H",
+                    websiteDescription = "Another city in south east asia.  ",
                 },
 
                 new ListClass()
                 {
+                    IconSource = "Tokyo.png",
                     websiteName = "6. Tokyo, Japan",
                     websiteDescription = "The most well known city in Japan and also the capital city.",
                 },
 
                 new ListClass()
                 {
+
+                    IconSource = "Moscow.png",
                     websiteName = "7. Moscow, Russia",
                     websiteDescription = "The most well known city in Russia and also the capital city.",
 

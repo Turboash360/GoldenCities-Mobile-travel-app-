@@ -124,6 +124,34 @@ namespace GoldenCities
         public string Localtime { get; set; }
     }
 
+    /*
+    public partial class Currency
+    {
+        [JsonProperty("success")]
+        public bool Success { get; set; }
+
+        [JsonProperty("terms")]
+        public string Terms { get; set; }
+
+        [JsonProperty("privacy")]
+        public string Privacy { get; set; }
+
+        [JsonProperty("timestamp")]
+        public long Timestamp { get; set; }
+
+        [JsonProperty("source")]
+        public string Source { get; set; }
+
+        [JsonProperty("quotes")]
+        public Dictionary<string, double> Quotes { get; set; }
+    }
+
+    public partial class Currency
+    {
+        public static Currency FromJson(string json) => JsonConvert.DeserializeObject<Currency>(json, GoldenCities.Converter.Settings);
+    }*/
+
+
     public partial class WeatherForcaster
     {
         public static WeatherForcaster FromJson(string json) => JsonConvert.DeserializeObject<WeatherForcaster>(json, GoldenCities.Converter.Settings);

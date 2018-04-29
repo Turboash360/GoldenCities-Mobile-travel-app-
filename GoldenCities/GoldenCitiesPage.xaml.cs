@@ -30,5 +30,11 @@ namespace GoldenCities
             Navigation.PushAsync(new ContinentsListView());
         }
 
+        void Handle_ClickedMoney(object sender, System.EventArgs e)
+        {
+            Debug.WriteLine($"**** {this.GetType().Name}.{nameof(Handle_ClickedRegister)}");
+            Navigation.PushAsync(new CurrencyData());
+        }
+
     }
 }

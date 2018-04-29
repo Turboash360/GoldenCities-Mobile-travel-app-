@@ -103,6 +103,12 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="Plugin.Connectivity.Abstractions">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.3.1.1\lib\Xamarin.iOS10\Plugin.Connectivity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Plugin.Connectivity">
+      <HintPath>..\packages\Xam.Plugin.Connectivity.3.1.1\lib\Xamarin.iOS10\Plugin.Connectivity.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\GoldenCities\GoldenCities.csproj">
@@ -137,11 +143,11 @@
     <BundleResource Include="Resources\Globe.png" />
     <BundleResource Include="Resources\GoldPlane.png" />
     <BundleResource Include="Resources\Dubai.png" />
-    <BundleResource Include="Resources\Kuala Lumpur.png" />
+    <BundleResource Include="Resources\Kuala_Lumpur.png" />
     <BundleResource Include="Resources\Maldives.png" />
     <BundleResource Include="Resources\Moscow.png" />
     <BundleResource Include="Resources\Singapore.png" />
-    <BundleResource Include="Resources\Taj Mahal.png" />
+    <BundleResource Include="Resources\Taj_Mahal.png" />
     <BundleResource Include="Resources\Tokyo.png" />
     <BundleResource Include="Resources\Hybrid.png" />
     <BundleResource Include="Resources\Satellite.png" />

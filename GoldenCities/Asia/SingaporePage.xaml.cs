@@ -25,7 +25,7 @@ namespace GoldenCities
             var uri = new Uri(
                 string.Format(
                     $"http://api.apixu.com/v1/current.json?key=" +
-                    $"{Keys.WeatherForcastKey}" +
+                    $"{TransKeys.WeatherForcastKey}" +
                     $"&q=Singapore"));
 
             var request = new HttpRequestMessage();

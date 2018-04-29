@@ -32,6 +32,7 @@ namespace GoldenCities
 
                 new ListClass()
                 {
+                    
                     websiteName = "2. New York City, Ny USA",
                     websiteDescription = "Welcome to New York. This is the most populated city in the United States. " +
                         "Really a great tourist spot. Super Great City with Statues Of Liberty." +
