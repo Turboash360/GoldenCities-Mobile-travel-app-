@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
+
 using GoldenCities.ClassModels;
 
 using Xamarin.Forms;
@@ -51,39 +52,45 @@ namespace GoldenCities
             {
                 new ListClass()
                 {
+                    IconSource= "London.jpeg",
                     websiteName = "1. London, UK",
-                    websiteDescription = "H",
+                    websiteDescription = "Known for Big Ben, London Bridge and the South Bank.  ",
                 },
 
                 new ListClass()
                 {
+                    IconSource="paris.jpg",
                     websiteName = "2. Paris, France",
-                    websiteDescription = "H",
+                    websiteDescription = "Known for the Effel Tower. The best place of romance.",
                 },
 
                 new ListClass()
                 {
+                    IconSource="reykjavik.jpg",
                     websiteName = "3. Iceland",
-                    websiteDescription = "H",
+                    websiteDescription = "Not very well known, but it does have gorgeous scenery. A best place to get fish salmon ",
                 },
 
                 new ListClass()
                 {
+                    IconSource="Rome.jpg",
                     websiteName = "4. Rome, Italy",
-                    websiteDescription = "H",
+                    websiteDescription = "Known for the Leaning Tower of Pisa. It has been leaning like always",
                 },
 
                 new ListClass()
                 {
+                    IconSource="madrid.jpg",
                     websiteName = "5. Madrid, Spain",
-                    websiteDescription = "H",
+                    websiteDescription = "Known for the Royal Palace of Madrid. ",
                 },
 
                 new ListClass()
                 {
+                    IconSource="berlin.jpg",
                     websiteName = "6. Berlin, Germany",
-                    websiteDescription = "H",
-                        
+                    websiteDescription = "Known for the Berlin Wall. A nice historical site. ",
+
                 },
 
 

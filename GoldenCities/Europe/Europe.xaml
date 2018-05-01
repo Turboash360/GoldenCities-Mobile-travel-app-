@@ -65,7 +65,7 @@
 
     <Grid x:Name = "ButtonGrid" 
             Grid.Row="1" 
-            Grid.Column="0"
+            Grid.Column="11"
             Grid.ColumnSpan="5"
             Grid.RowSpan="2"
             RowSpacing="0" 
@@ -145,7 +145,7 @@
         
 
     <StackLayout 
-            Grid.Column="5"
+            Grid.Column="0"
             Grid.Row="1"
             Grid.RowSpan="3"
             Grid.ColumnSpan="11"

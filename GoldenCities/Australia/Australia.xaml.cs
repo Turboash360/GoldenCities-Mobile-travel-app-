@@ -23,13 +23,16 @@ namespace GoldenCities
                 new ListClass()
                 {
                     websiteName = "1. Sydney, Australia",
-                    websiteDescription = "H",
+                    websiteDescription = "The largest city in Australia, and it is one of the most populated city in south america." +
+                        "This cosmopolitian city is well known for Opera house and site seeing.",
                 },
 
                 new ListClass()
                 {
                     websiteName = "2. Alice Springs, Australia",
-                    websiteDescription = "H",
+                    websiteDescription = "The most remote area in central Australia. Well know for the Uluru(Ayres Rock). " +
+                        "This Rock can glow in the night time. Isn't that awesome. Many tourists from all over the world" +
+                        "come and visit this place to see the red rock glowing in the night time. ",
                 },
             };
 

@@ -21,12 +21,14 @@ namespace GoldenCities
             {
                 new ListClass()
                 {
+                    IconSource="Antartica.png",
                     websiteName = "1. South Pole, Antartica",
                     websiteDescription = "One of the hemispheres in Antartica. ",
                 },
 
                 new ListClass()
                 {
+                    IconSource="Antartica.png",
                     websiteName = "2. North Pole, Antartica",
                     websiteDescription = "A random city in Antartica. How do I get there?" +
                         "First, go to south pole. There is a magical portal in south pole which will teleport you to north pole.",
@@ -34,12 +36,13 @@ namespace GoldenCities
 
                 new ListClass()
                 {
+                    IconSource="Antartica.png",
                     websiteName = "3. Mc.Murdo Station, Antartica",
                     websiteDescription = "Another random city in Antartica. The only city in Antartica that has life.",
                 },
 
-               
-               
+
+
             };
 
             ANT.ItemsSource = List;
