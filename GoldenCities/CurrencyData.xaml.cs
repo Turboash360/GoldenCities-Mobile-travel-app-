@@ -40,14 +40,38 @@ namespace GoldenCities
                 var content = await response.Content.ReadAsStringAsync();
                 Money = Currency.FromJson(content);
                 Source.Text = Money.Source;
-                /*
-                 * Anyone please help me with the quotes list
-                foreach(var i in Money.Quotes)
-                {
-                    Quotes.Text = Money[i].Quotes;
-                        
-                }*/
 
+
+                //This will display all the string content
+                //----------------------------------------------------------------
+                Dictionary<string, double> pairs = Money.Quotes;
+
+                int size = pairs.Keys.Count;  //Size of the quotes
+
+                string[] keys = new string[size]; //Make array with the same size
+                pairs.Keys.CopyTo(keys, 0);    //Input all the string values into a string array
+
+                for (int i = 0; i < size; i++)
+                {
+                    Quotes.Text += " " + keys[i];  // Print each string value
+                }
+                //----------------------------------------------------------------------
+
+
+                //Make another array for the double vaules 
+                //________________________________________________________
+                double[] value = new double[size];
+                pairs.Values.CopyTo(value, 0);
+                //.............//
+                //to display content you must turn double value into a string 
+
+
+                //Note size of array is large must find better way to organize
+
+
+
+
+               
             }
 
         }

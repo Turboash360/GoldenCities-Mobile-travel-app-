@@ -31,7 +31,7 @@ namespace GoldenCities
        
         void HandleClickedAF(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new Africa());
+            Navigation.PushAsync(new African());
         }
        
         void HandleClickedAS(object sender, EventArgs e)

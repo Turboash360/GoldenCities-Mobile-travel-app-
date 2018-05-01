@@ -7,19 +7,18 @@ using Xamarin.Forms;
 
 namespace GoldenCities
 {
-    public partial class DelhiPage : ContentPage
+    public partial class addis_ababa : ContentPage
     {
-
-        public DelhiPage()
+        public addis_ababa()
         {
             InitializeComponent();
         }
 
         void Handle_ClickedMaps(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new DelhiMaps());
+            Navigation.PushAsync(new addis_ababaMaps());
         }
-      
+
         async void Handle_ClickedTemperature(object sender, System.EventArgs e)
         {
             HttpClient client = new HttpClient();
@@ -28,8 +27,8 @@ namespace GoldenCities
                 string.Format(
                     $"http://api.apixu.com/v1/current.json?key=" +
                     $"{TransKeys.WeatherForcastKey}" +
-                    $"&q=Delhi"));
-           
+                    $"&q=Addis Ababa"));
+
             var request = new HttpRequestMessage();
             request.Method = HttpMethod.Get;
             request.RequestUri = uri;
@@ -38,7 +37,7 @@ namespace GoldenCities
             HttpResponseMessage response = await client.SendAsync(request);
 
             WeatherForcaster ForcastAPI = null;
-            if(response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
                 var content = await response.Content.ReadAsStringAsync();
                 ForcastAPI = WeatherForcaster.FromJson(content);
@@ -49,7 +48,7 @@ namespace GoldenCities
                 Region.Text = "Region: " + ForcastAPI.Location.Region;
                 TemperatureF.Text = "Temperature(F): " + ForcastAPI.Current.TempF;
                 TemperatureC.Text = "Temperature(C): " + ForcastAPI.Current.TempC;
-                    
+
 
             }
         }

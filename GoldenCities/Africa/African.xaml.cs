@@ -7,12 +7,32 @@ using Xamarin.Forms;
 
 namespace GoldenCities
 {
-    public partial class Africa : ContentPage
+    public partial class African : ContentPage
     {
-        public Africa()
+        public African()
         {
             InitializeComponent();
             PopulateViewList();
+        }
+
+        void Handle_ClickedCairo(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new Cairo());
+        }
+
+        void Handle_ClickedSeychelles(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new Seychelles());
+        }
+
+        void Handle_ClickedDurban(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new Durban());
+        }
+
+        void Handle_ClickedAddisAbaba(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new addis_ababa());
         }
 
         private void PopulateViewList()
