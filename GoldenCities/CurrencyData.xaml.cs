@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Net.Http;
 using GoldenCities.ClassModels;
@@ -9,12 +10,17 @@ namespace GoldenCities
 {
     public partial class CurrencyData : ContentPage
     {
+        string[] keys = new string[168];
+        double[] values = new double[168];
+        int touchIndex = 0;
+
         public CurrencyData()
         {
             InitializeComponent();
+            getData();
         }
 
-        async void Handle_ClickedCurrency(object sender, System.EventArgs e)
+        async void getData()
         {
 
             HttpClient client = new HttpClient();
@@ -22,8 +28,7 @@ namespace GoldenCities
             var uri = new Uri(
                 string.Format(
                     $"http://www.apilayer.net/api/live?access_key=" +
-                    $"{TransKeys.CurrencyKey}"
-                    ));
+                    $"{TransKeys.CurrencyKey}"));
 
 
             var request = new HttpRequestMessage();
@@ -39,42 +44,42 @@ namespace GoldenCities
             {
                 var content = await response.Content.ReadAsStringAsync();
                 Money = Currency.FromJson(content);
-                Source.Text = Money.Source;
 
-
-                //This will display all the string content
-                //----------------------------------------------------------------
                 Dictionary<string, double> pairs = Money.Quotes;
 
-                int size = pairs.Keys.Count;  //Size of the quotes
+                Source.Text = Money.Source;
 
-                string[] keys = new string[size]; //Make array with the same size
-                pairs.Keys.CopyTo(keys, 0);    //Input all the string values into a string array
-
-                for (int i = 0; i < size; i++)
-                {
-                    Quotes.Text += " " + keys[i];  // Print each string value
-                }
-                //----------------------------------------------------------------------
-
-
-                //Make another array for the double vaules 
-                //________________________________________________________
-                double[] value = new double[size];
-                pairs.Values.CopyTo(value, 0);
-                //.............//
-                //to display content you must turn double value into a string 
-
-
-                //Note size of array is large must find better way to organize
-
-
-
-
-               
+                pairs.Keys.CopyTo(keys, 0);
+                pairs.Values.CopyTo(values, 0);
+                Picker();
             }
-
         }
 
+        private void Picker()
+        {
+            Selector.SelectedIndex = 0;
+
+            var Country_Selector_Source = new ObservableCollection<string>();
+
+            for (int i = 0; i < 168; i++)
+            {
+                Country_Selector_Source.Add(keys[i]);
+            }
+            Selector.ItemsSource = Country_Selector_Source;
+        }
+
+        void Handle_SelectedIndexChanged(object sender, System.EventArgs e)
+        {
+            var selector = (Picker)sender;
+            touchIndex = selector.SelectedIndex;
+            Quotes.Text = "Country: ";
+            amount.Text = "Currency: ";
+        }
+
+        void Handle_ClickedCurrency(object sender, System.EventArgs e)
+        {
+            Quotes.Text += keys[touchIndex];
+            amount.Text += values[touchIndex];
+        }
     }
 }

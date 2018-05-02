@@ -24,13 +24,20 @@ namespace GoldenCities
         void SignInProcedure(object sender, EventArgs e)
         {
             User user = new User(Entry_Username.Text, Entry_Password.Text);
-            if (user.CheckInformation())
+
+
+            if (String.IsNullOrEmpty(Entry_Username.Text) || String.IsNullOrEmpty(Entry_Password.Text))
+            {
+                DisplayAlert("Login", "The Username or Password is Blank", "Error");
+            }
+
+            else if (user.CheckInformation())
             {
                 Navigation.PushAsync(new ContinentsListView());
             }
             else
             {
-                DisplayAlert("Login", "The Username or Password is incorrect", "Error");     
+                DisplayAlert("Login", "The Username or Password is incorrect", "Error");
             }
         }
     }

@@ -106,71 +106,11 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Europe\BerlinMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\BerlinPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\Europe.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\LondonMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\LondonPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\MadridMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\MadridPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\ParisMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\ParisPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\ReykjavikMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\ReykjavikPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\RomeMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Europe\RomePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Africa\African.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Antartica\Antartica.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Australia\Australia.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="North America\NorthAmerica.xaml">
+    <EmbeddedResource Include="InfoOnCites\NorthAmerica.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -182,35 +122,23 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Africa\Cairo.xaml">
+    <EmbeddedResource Include="InfoOnCites\CitiesMoreInfo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Africa\Seychelles.xaml">
+    <EmbeddedResource Include="InfoOnCites\CitiesMap.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Africa\Durban.xaml">
+    <EmbeddedResource Include="InfoOnCites\African.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Africa\addis_ababa.xaml">
+    <EmbeddedResource Include="InfoOnCites\Antartica.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Africa\CairoMap.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Africa\DurbanMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Africa\addis_ababaMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Africa\SeychellesMaps.xaml">
+    <EmbeddedResource Include="InfoOnCites\Europe.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -284,55 +212,10 @@
     <Compile Include="Asia\Asia.xaml.cs">
       <DependentUpon>Asia.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Europe\BerlinMaps.xaml.cs">
-      <DependentUpon>BerlinMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\BerlinPage.xaml.cs">
-      <DependentUpon>BerlinPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\Europe.xaml.cs">
-      <DependentUpon>Europe.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\LondonMaps.xaml.cs">
-      <DependentUpon>LondonMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\LondonPage.xaml.cs">
-      <DependentUpon>LondonPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\MadridMaps.xaml.cs">
-      <DependentUpon>MadridMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\MadridPage.xaml.cs">
-      <DependentUpon>MadridPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\ParisMaps.xaml.cs">
-      <DependentUpon>ParisMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\ParisPage.xaml.cs">
-      <DependentUpon>ParisPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\ReykjavikMaps.xaml.cs">
-      <DependentUpon>ReykjavikMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\ReykjavikPage.xaml.cs">
-      <DependentUpon>ReykjavikPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\RomeMaps.xaml.cs">
-      <DependentUpon>RomeMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Europe\RomePage.xaml.cs">
-      <DependentUpon>RomePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Africa\African.xaml.cs">
-      <DependentUpon>African.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Antartica\Antartica.xaml.cs">
-      <DependentUpon>Antartica.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Australia\Australia.xaml.cs">
       <DependentUpon>Australia.xaml</DependentUpon>
     </Compile>
-    <Compile Include="North America\NorthAmerica.xaml.cs">
+    <Compile Include="InfoOnCites\NorthAmerica.xaml.cs">
       <DependentUpon>NorthAmerica.xaml</DependentUpon>
     </Compile>
     <Compile Include="South America\SouthAmerica.xaml.cs">
@@ -342,40 +225,28 @@
     <Compile Include="CurrencyData.xaml.cs">
       <DependentUpon>CurrencyData.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Africa\Cairo.xaml.cs">
-      <DependentUpon>Cairo.xaml</DependentUpon>
+    <Compile Include="InfoOnCites\CitiesMoreInfo.xaml.cs">
+      <DependentUpon>CitiesMoreInfo.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Africa\Seychelles.xaml.cs">
-      <DependentUpon>Seychelles.xaml</DependentUpon>
+    <Compile Include="InfoOnCites\CitiesMap.xaml.cs">
+      <DependentUpon>CitiesMap.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Africa\Durban.xaml.cs">
-      <DependentUpon>Durban.xaml</DependentUpon>
+    <Compile Include="InfoOnCites\African.xaml.cs">
+      <DependentUpon>African.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Africa\addis_ababa.xaml.cs">
-      <DependentUpon>addis_ababa.xaml</DependentUpon>
+    <Compile Include="InfoOnCites\Antartica.xaml.cs">
+      <DependentUpon>Antartica.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Africa\CairoMap.xaml.cs">
-      <DependentUpon>CairoMap.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Africa\DurbanMaps.xaml.cs">
-      <DependentUpon>DurbanMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Africa\addis_ababaMaps.xaml.cs">
-      <DependentUpon>addis_ababaMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Africa\SeychellesMaps.xaml.cs">
-      <DependentUpon>SeychellesMaps.xaml</DependentUpon>
+    <Compile Include="InfoOnCites\Europe.xaml.cs">
+      <DependentUpon>Europe.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassModels\" />
     <Folder Include="Asia\" />
-    <Folder Include="Europe\" />
-    <Folder Include="North America\" />
+    <Folder Include="InfoOnCites\" />
     <Folder Include="South America\" />
-    <Folder Include="Africa\" />
     <Folder Include="Australia\" />
-    <Folder Include="Antartica\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

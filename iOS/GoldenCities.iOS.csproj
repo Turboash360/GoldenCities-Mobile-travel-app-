@@ -156,15 +156,22 @@
     <BundleResource Include="Resources\Asia.png" />
     <BundleResource Include="Resources\Europe.png" />
     <BundleResource Include="Resources\Antartica.png" />
-    <BundleResource Include="Resources\London.jpeg" />
-    <BundleResource Include="Resources\Rome.jpg" />
-    <BundleResource Include="Resources\berlin.jpg" />
-    <BundleResource Include="Resources\madrid.jpg" />
-    <BundleResource Include="Resources\paris.jpg" />
-    <BundleResource Include="Resources\reykjavik.jpg" />
     <BundleResource Include="Resources\North_A.png" />
     <BundleResource Include="Resources\LA.png" />
     <BundleResource Include="Resources\Africa.png" />
+    <BundleResource Include="Resources\acapulco-beach.png" />
+    <BundleResource Include="Resources\berlin.png" />
+    <BundleResource Include="Resources\canada_Toronto.png" />
+    <BundleResource Include="Resources\Cancun.png" />
+    <BundleResource Include="Resources\Honolulu.png" />
+    <BundleResource Include="Resources\London.png" />
+    <BundleResource Include="Resources\madrid.png" />
+    <BundleResource Include="Resources\MC.png" />
+    <BundleResource Include="Resources\NewYorkCities.png" />
+    <BundleResource Include="Resources\Ontario.png" />
+    <BundleResource Include="Resources\paris.png" />
+    <BundleResource Include="Resources\reykjavik.png" />
+    <BundleResource Include="Resources\Rome.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

@@ -23,15 +23,15 @@
 
         <StackLayout
             Grid.Row="0">
-             <Label
-                Text="{Binding websiteDescription}"
-                FontSize="25"
-                HorizontalOptions="Center"/> 
             <Image
                 Source="{Binding IconSource}"
-                Scale=".5"/>
+                />
+             <Label
+                Text="{Binding websiteDescription}"
+                FontSize="15"
+                HorizontalOptions="Center"/> 
               
         </StackLayout>
        </Grid>
-
+      
 </ContentPage>

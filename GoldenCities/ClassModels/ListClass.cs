@@ -11,8 +11,8 @@ namespace GoldenCities.ClassModels
         {
             get;
             set;
-        } 
-       
+        }
+
         public string websiteName
         {
             get;
@@ -25,6 +25,35 @@ namespace GoldenCities.ClassModels
             set;
         }
 
-       
+
+        public string city
+        {
+            get;
+            set;
+        }
+
+
+        public double[] latitude
+        {
+            get;
+            set;
+        }
+
+        public double[] longitude
+        {
+            get;
+            set;
+        }
+
+        public string[] places
+        {
+            get;
+            set;
+        }
+        public string wetherkey
+        {
+            get;
+            set;
+        }
     }
 }
