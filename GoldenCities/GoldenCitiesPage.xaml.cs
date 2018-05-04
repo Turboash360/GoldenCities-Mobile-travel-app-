@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using Plugin.Connectivity;
 using Xamarin.Forms;
 
 namespace GoldenCities
@@ -15,8 +16,11 @@ namespace GoldenCities
 
         void Handle_ClickedLogin(object sender, System.EventArgs e)
         {
+
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(Handle_ClickedLogin)}");
-            Navigation.PushAsync(new LoginPage());
+
+                Navigation.PushAsync(new LoginPage());
+           
         }
 
         void Handle_ClickedRegister(object sender, System.EventArgs e)
@@ -33,7 +37,14 @@ namespace GoldenCities
         void Handle_ClickedMoney(object sender, System.EventArgs e)
         {
             Debug.WriteLine($"**** {this.GetType().Name}.{nameof(Handle_ClickedRegister)}");
-            Navigation.PushAsync(new CurrencyData());
+            if (CrossConnectivity.Current.IsConnected != true)
+            {
+                DisplayAlert("Wifi Connection Status", "No Service you are not connected to Wifi", "Try Again");
+            }
+            else
+            {
+                Navigation.PushAsync(new CurrencyData());
+            }
         }
 
     }

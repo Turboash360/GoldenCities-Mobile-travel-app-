@@ -46,66 +46,6 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Asia\DelhiMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\DelhiPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\DubaiMaps.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\DubaiPage.xaml">
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\Kuala_LumpurMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\MaleMapsPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\MalePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\KualaLumpurPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\MoscowMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\MoscowPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\SingaporeMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\SingaporePage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\TokyoMaps.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\TokyoPage.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Asia\Asia.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="Australia\Australia.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
@@ -142,6 +82,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="InfoOnCites\Asia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -167,51 +111,6 @@
     </Compile>
     <Compile Include="ClassModels\WeatherForcaster.cs" />
     <Compile Include="Keys.cs" />
-    <Compile Include="Asia\DelhiMaps.xaml.cs">
-      <DependentUpon>DelhiMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\DelhiPage.xaml.cs">
-      <DependentUpon>DelhiPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\DubaiMaps.xaml.cs">
-      <DependentUpon>DubaiMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\DubaiPage.xaml.cs">
-      <DependentUpon>DubaiPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\Kuala_LumpurMaps.xaml.cs">
-      <DependentUpon>Kuala_LumpurMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\MaleMapsPage.xaml.cs">
-      <DependentUpon>MaleMapsPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\MalePage.xaml.cs">
-      <DependentUpon>MalePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\KualaLumpurPage.xaml.cs">
-      <DependentUpon>KualaLumpurPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\MoscowMaps.xaml.cs">
-      <DependentUpon>MoscowMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\MoscowPage.xaml.cs">
-      <DependentUpon>MoscowPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\SingaporeMaps.xaml.cs">
-      <DependentUpon>SingaporeMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\SingaporePage.xaml.cs">
-      <DependentUpon>SingaporePage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\TokyoMaps.xaml.cs">
-      <DependentUpon>TokyoMaps.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\TokyoPage.xaml.cs">
-      <DependentUpon>TokyoPage.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Asia\Asia.xaml.cs">
-      <DependentUpon>Asia.xaml</DependentUpon>
-    </Compile>
     <Compile Include="Australia\Australia.xaml.cs">
       <DependentUpon>Australia.xaml</DependentUpon>
     </Compile>
@@ -240,10 +139,12 @@
     <Compile Include="InfoOnCites\Europe.xaml.cs">
       <DependentUpon>Europe.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InfoOnCites\Asia.xaml.cs">
+      <DependentUpon>Asia.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassModels\" />
-    <Folder Include="Asia\" />
     <Folder Include="InfoOnCites\" />
     <Folder Include="South America\" />
     <Folder Include="Australia\" />
@@ -269,6 +170,21 @@
     </Reference>
     <Reference Include="Plugin.Connectivity">
       <HintPath>..\packages\Xam.Plugin.Connectivity.3.1.1\lib\netstandard1.0\Plugin.Connectivity.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net45+win8+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="Auth0.Core">
+      <HintPath>..\packages\Auth0.Core.3.6.0\lib\portable-net45+win8+wpa81\Auth0.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Auth0.AuthenticationApi">
+      <HintPath>..\packages\Auth0.AuthenticationApi.3.6.0\lib\portable-net45+win8+wpa81\Auth0.AuthenticationApi.dll</HintPath>
+    </Reference>
+    <Reference Include="Auth0.ManagementApi">
+      <HintPath>..\packages\Auth0.ManagementApi.3.6.0\lib\portable-net45+win8+wpa81\Auth0.ManagementApi.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>

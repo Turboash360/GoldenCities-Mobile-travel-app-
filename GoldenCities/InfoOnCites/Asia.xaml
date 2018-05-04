@@ -61,7 +61,7 @@
 
     <Grid x:Name = "ButtonGrid" 
             Grid.Row="1" 
-            Grid.Column="0"
+            Grid.Column="11"
             Grid.ColumnSpan="5"
             Grid.RowSpan="2"
             RowSpacing="0" 
@@ -86,7 +86,8 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
-                Clicked="Handle_Clicked_Delhi" 
+                Clicked = "Handle_Clicked"
+               
             />
              <Button
                 
@@ -95,7 +96,8 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
-                Clicked="Handle_Clicked_Male"
+                Clicked = "Handle_Clicked"
+              
 
             />
              <Button
@@ -105,7 +107,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
-                Clicked="Handle_Clicked_Dubai"
+                Clicked = "Handle_Clicked"
 
             />
 
@@ -116,7 +118,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
-                Clicked="Handle_Clicked_Singapore"
+                Clicked = "Handle_Clicked"
 
             />
 
@@ -127,7 +129,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
-                Clicked="Handle_Clicked_KualaLumpur"
+                Clicked = "Handle_Clicked"
 
             />
 
@@ -138,7 +140,7 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
-                Clicked="Handle_Clicked_Tokyo"
+                Clicked = "Handle_Clicked"
 
             />
 
@@ -149,8 +151,8 @@
                 BackgroundColor="Orange"
                 TextColor="Black"
                 BorderRadius="5"
-                Clicked="Handle_Clicked_Moscow"
-
+                Clicked = "Handle_Clicked"
+            
             />
 
       
@@ -158,7 +160,7 @@
         
     
     <StackLayout 
-        Grid.Column="5"
+        Grid.Column="0"
         Grid.Row="1"
         Grid.RowSpan="3"
         Grid.ColumnSpan="11"

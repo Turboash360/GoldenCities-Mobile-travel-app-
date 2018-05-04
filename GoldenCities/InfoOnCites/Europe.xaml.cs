@@ -60,7 +60,7 @@ namespace GoldenCities
             {
                 IconSource = "paris.png",
                 websiteName = "2. Paris, France",
-                websiteDescription = "Known for the Effel Tower. The best place of romance.",
+                websiteDescription = "Known for the Effel Tower. The best place of romance and french fries.",
                 latitude = PA_lat,
                 longitude = PA_long,
                 places = PA_places,
@@ -73,7 +73,8 @@ namespace GoldenCities
             {
                 IconSource = "reykjavik.png",
                 websiteName = "3. Iceland",
-                websiteDescription = "Not very well known, but it does have gorgeous scenery. A best place to get fish salmon ",
+                websiteDescription = "Not very well known, but it does have gorgeous scenery. A best place to get fish salmon. " +
+                    "They call it Iceland, but there are no ice. It is green",
                 latitude = RE_lat,
                 longitude = RE_long,
                 places = RE_places,
@@ -87,7 +88,8 @@ namespace GoldenCities
             {
                 IconSource = "Rome.png",
                 websiteName = "4. Rome, Italy",
-                websiteDescription = "Known for the Leaning Tower of Pisa. It has been leaning like always",
+                websiteDescription = "Known for the Leaning Tower of Pisa. It has been leaning like always. " +
+                    "It has been leaning since Iccas Newton and Gallieo proved the theorm of Gravity.",
 
                 latitude = RO_lat,
                 longitude = RO_long,
@@ -115,7 +117,8 @@ namespace GoldenCities
             {
                 IconSource = "berlin.png",
                 websiteName = "6. Berlin, Germany",
-                websiteDescription = "Known for the Berlin Wall. A nice historical site. ",
+                websiteDescription = "Known for the Berlin Wall. A nice historical site. " +
+                    "This city was divided since the end of World War 2 till 1989. ",
                 latitude = BE_lat,
                 longitude = BE_long,
                 places = BE_places,

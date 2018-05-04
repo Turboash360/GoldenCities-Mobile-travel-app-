@@ -28,7 +28,7 @@ namespace GoldenCities
 
             if (String.IsNullOrEmpty(Entry_Username.Text) || String.IsNullOrEmpty(Entry_Password.Text))
             {
-                DisplayAlert("Login", "The Username or Password is Blank", "Error");
+                DisplayAlert("Login", "The Username or Password is Blank", "Try Again");
             }
 
             else if (user.CheckInformation())
@@ -37,7 +37,7 @@ namespace GoldenCities
             }
             else
             {
-                DisplayAlert("Login", "The Username or Password is incorrect", "Error");
+                DisplayAlert("Login", "The Username or Password is incorrect", "Try Again");
             }
         }
     }

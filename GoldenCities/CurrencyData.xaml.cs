@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
+using Plugin.Connectivity;
 using System.Net.Http;
 using GoldenCities.ClassModels;
 using Xamarin.Forms;
@@ -17,44 +18,53 @@ namespace GoldenCities
         public CurrencyData()
         {
             InitializeComponent();
-            getData();
+            if (CrossConnectivity.Current.IsConnected != true)
+            {
+                DisplayAlert("Wifi Connection Status", "No Service you are not connected to Wifi", "Try Again");
+          
+            }
+            else
+            {
+                getData();
+            }
         }
 
         async void getData()
         {
 
-            HttpClient client = new HttpClient();
+          
+                HttpClient client = new HttpClient();
 
-            var uri = new Uri(
-                string.Format(
-                    $"http://www.apilayer.net/api/live?access_key=" +
-                    $"{TransKeys.CurrencyKey}"));
+                var uri = new Uri(
+                    string.Format(
+                        $"http://www.apilayer.net/api/live?access_key=" +
+                        $"{TransKeys.CurrencyKey}"));
 
 
-            var request = new HttpRequestMessage();
-            request.Method = HttpMethod.Get;
-            request.RequestUri = uri;
-            request.Headers.Add("Application", "application / json");
+                var request = new HttpRequestMessage();
+                request.Method = HttpMethod.Get;
+                request.RequestUri = uri;
+                request.Headers.Add("Application", "application / json");
 
-            HttpResponseMessage response = await client.SendAsync(request);
+                HttpResponseMessage response = await client.SendAsync(request);
 
-            Currency Money = null;
+                Currency Money = null;
 
-            if (response.IsSuccessStatusCode)
-            {
-                var content = await response.Content.ReadAsStringAsync();
-                Money = Currency.FromJson(content);
+                if (response.IsSuccessStatusCode)
+                {
+                    var content = await response.Content.ReadAsStringAsync();
+                    Money = Currency.FromJson(content);
 
-                Dictionary<string, double> pairs = Money.Quotes;
+                    Dictionary<string, double> pairs = Money.Quotes;
 
-                Source.Text = Money.Source;
+                    Source.Text = Money.Source;
 
-                pairs.Keys.CopyTo(keys, 0);
-                pairs.Values.CopyTo(values, 0);
-                Picker();
-            }
+                    pairs.Keys.CopyTo(keys, 0);
+                    pairs.Values.CopyTo(values, 0);
+                    Picker();
+                }
+           
         }
-
         private void Picker()
         {
             Selector.SelectedIndex = 0;

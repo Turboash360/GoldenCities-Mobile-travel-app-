@@ -41,7 +41,7 @@ namespace GoldenCities
 
             var item = new ListClass
             {
-                websiteName = "Cairo, Egypt",
+                websiteName = "1. Cairo, Egypt",
                 websiteDescription = "It's the capital of Egypt.It's the largest city in Egypt, and" + "also the 15th largest city in the world.",
                 latitude = CO_lat,
                 longitude = CO_long,
@@ -53,7 +53,7 @@ namespace GoldenCities
 
             var item1 = new ListClass
             {
-                websiteName = "Seychelles",
+                websiteName = "2. Seychelles",
                 websiteDescription = "It's a republic in France, and one of the sovereign states" + "in the Indian Ocean.",
                 latitude = SE_lat,
                 longitude = SE_long,
@@ -65,7 +65,7 @@ namespace GoldenCities
 
             var item2 = new ListClass
             {
-                websiteName = "Durban, South Africa",
+                websiteName = "3. Durban, South Africa",
                 websiteDescription = "Located on east coast of South Africa, and one of the largest cities.",
                 latitude = DU_lat,
                 longitude = DU_long,
@@ -78,7 +78,7 @@ namespace GoldenCities
 
             var item3 = new ListClass
             {
-                websiteName = "Adidas Ababa, Ethopia",
+                websiteName = "4. Adidas Ababa, Ethopia",
                 websiteDescription = "It's the capital of Ethiopia.",
 
                 latitude = AD_lat,

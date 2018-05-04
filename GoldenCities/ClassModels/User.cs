@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
+
 namespace GoldenCities.ClassModels
 {
     public class User
