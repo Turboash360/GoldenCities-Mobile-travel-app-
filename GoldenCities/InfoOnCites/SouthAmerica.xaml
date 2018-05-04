@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage 
+    xmlns="http://xamarin.com/schemas/2014/forms" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:GoldenCities"
+    x:Class="GoldenCities.SouthAmerica">
+
+    <Grid 
+        x:Name="SouthGrid"
+        RowSpacing="3"
+        ColumnSpacing="3">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>    
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/> 
+        </Grid.ColumnDefinitions>
+
+
+
+        <Image
+            Source="SouthAmerica.png"
+            Scale="1"
+            Grid.ColumnSpan="3"
+            Grid.RowSpan="1"
+            Grid.Row="0"/>
+        <Label
+            Text="South American Cities"
+            FontSize="30"
+            Grid.ColumnSpan="3"
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="Center"/> 
+
+         <Button
+            x:Name="MachuPicchu"
+            Text="1. Machu Picchu"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            BorderRadius="5"
+            Grid.Row="1"
+            Grid.Column="2"
+            Clicked="Handle_Clicked"/>
+
+         <Button
+            x:Name="Panama"
+            Text="2. Panama Canal"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            BorderRadius="5"
+            Grid.Row="2"
+            Grid.Column="2"
+            Clicked="Handle_Clicked"/>
+        
+         <Button
+            x:Name="Rio"
+            Text="3. Rio"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            BorderRadius="5"
+            Grid.Row="3"
+            Grid.Column="2"
+            Clicked="Handle_Clicked"/>
+
+         <Button
+            x:Name="Quito"
+            Text="4. Quito"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            BorderRadius="5"
+            Grid.Row="4"
+            Grid.Column="2"
+            Clicked="Handle_Clicked"/>
+
+         <Button
+            x:Name="Bogotá"
+            Text="5. Bogotá"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            BorderRadius="5"
+            Grid.Row="5"
+            Grid.Column="2"
+            Clicked="Handle_Clicked"/>
+
+         <Button
+            x:Name="Santiago"
+            Text="6. Santiago"
+            BackgroundColor="Orange"
+            TextColor="Black"
+            BorderRadius="5"
+            Grid.Row="6"
+            Grid.Column="2"
+            Clicked="Handle_Clicked"/>
+                       
+                       
+     <StackLayout 
+        Grid.Row="1"
+        Grid.RowSpan="10"
+ 
+        Grid.Column="0"
+        Grid.ColumnSpan="2"
+        Spacing="12" Margin="2">
+            
+        <Label  
+            HorizontalOptions="Center" />
+
+        <ListView 
+            x:Name="SA" >
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ImageCell
+                         
+                        
+                        Text="{Binding websiteName}" >
+                        <ImageCell.ContextActions>
+                            
+                            <MenuItem 
+                            Text="More" 
+                            Clicked="HandleMoreButton" 
+                            CommandParameter="{Binding}" />
+                        </ImageCell.ContextActions>
+                    </ImageCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </Grid>
+</ContentPage>

@@ -67,7 +67,7 @@ namespace GoldenCities
 
             var item1 = new ListClass
             {
-                IconSource = "NewYorkCitites.png",
+                IconSource = "NewYorkCities.png",
                 websiteName = "2. New York City, Ny USA",
                 websiteDescription = "Welcome to New York. This is the most populated city in the United States. " +
                         "Really a great tourist spot. Super Great City with Statues Of Liberty",

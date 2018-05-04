@@ -46,15 +46,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Include="Australia\Australia.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
     <EmbeddedResource Include="InfoOnCites\NorthAmerica.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
-    </EmbeddedResource>
-    <EmbeddedResource Include="South America\SouthAmerica.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -86,6 +78,14 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="InfoOnCites\Australia.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InfoOnCites\SouthAmerica.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -111,14 +111,8 @@
     </Compile>
     <Compile Include="ClassModels\WeatherForcaster.cs" />
     <Compile Include="Keys.cs" />
-    <Compile Include="Australia\Australia.xaml.cs">
-      <DependentUpon>Australia.xaml</DependentUpon>
-    </Compile>
     <Compile Include="InfoOnCites\NorthAmerica.xaml.cs">
       <DependentUpon>NorthAmerica.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="South America\SouthAmerica.xaml.cs">
-      <DependentUpon>SouthAmerica.xaml</DependentUpon>
     </Compile>
     <Compile Include="ClassModels\Currency.cs" />
     <Compile Include="CurrencyData.xaml.cs">
@@ -142,12 +136,16 @@
     <Compile Include="InfoOnCites\Asia.xaml.cs">
       <DependentUpon>Asia.xaml</DependentUpon>
     </Compile>
+    <Compile Include="InfoOnCites\Australia.xaml.cs">
+      <DependentUpon>Australia.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="InfoOnCites\SouthAmerica.xaml.cs">
+      <DependentUpon>SouthAmerica.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ClassModels\" />
     <Folder Include="InfoOnCites\" />
-    <Folder Include="South America\" />
-    <Folder Include="Australia\" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Xamarin.Forms.Core">

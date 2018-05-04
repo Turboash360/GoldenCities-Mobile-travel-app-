@@ -202,6 +202,9 @@
     <BundleResource Include="Resources\paris.png" />
     <BundleResource Include="Resources\reykjavik.png" />
     <BundleResource Include="Resources\Rome.png" />
+    <BundleResource Include="Resources\alice.png" />
+    <BundleResource Include="Resources\sydney.png" />
+    <BundleResource Include="Resources\australia.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />
