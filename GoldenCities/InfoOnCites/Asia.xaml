@@ -51,13 +51,21 @@
             
         <Label 
              Margin="15"   
-            Text="Best Cities in Asia"
-             FontSize="35"                
+            Text="Asian Cities"
+             FontSize="30"                
             />
 
             
     </StackLayout>
-        
+
+     <Label 
+            Text="Slide the MenuBar to the left for more Info"
+            Grid.Column="3"
+            Grid.ColumnSpan="13"
+            HorizontalOptions="Center"
+            VerticalOptions="EndAndExpand"
+       />   
+
 
     <Grid x:Name = "ButtonGrid" 
             Grid.Row="1" 

@@ -205,6 +205,18 @@
     <BundleResource Include="Resources\alice.png" />
     <BundleResource Include="Resources\sydney.png" />
     <BundleResource Include="Resources\australia.png" />
+    <BundleResource Include="Resources\Bogota.png" />
+    <BundleResource Include="Resources\Machu.png" />
+    <BundleResource Include="Resources\Panama.png" />
+    <BundleResource Include="Resources\Quito.png" />
+    <BundleResource Include="Resources\Rio.png" />
+    <BundleResource Include="Resources\Santiago.png" />
+    <BundleResource Include="Resources\Seychelles.png" />
+    <BundleResource Include="Resources\Cairo.png" />
+    <BundleResource Include="Resources\Alice-Springs.png" />
+    <BundleResource Include="Resources\Adidas-Ababa.png" />
+    <BundleResource Include="Resources\Durban.png" />
+    <BundleResource Include="Resources\South-America.png" />
   </ItemGroup>
   <ItemGroup>
     <ITunesArtwork Include="iTunesArtwork" />

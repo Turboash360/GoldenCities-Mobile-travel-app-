@@ -27,13 +27,33 @@
             Grid.ColumnSpan="15">
 
             <Image
-                Source="Africa.png"/>
+                Source="Africa.png"
+                Scale="1"
+                HorizontalOptions="CenterAndExpand"
+                 Grid.ColumnSpan="3"
+                 Grid.RowSpan="1"
+                 Grid.Row="0"
+
+            />
 
             <Label 
                 Margin="15"   
                 Text="African Cities"
-                FontSize="35"/>
+                HorizontalOptions="CenterAndExpand"
+                FontSize="30"
+            />
+
+           
+            
         </StackLayout>
+
+        <Label 
+            Text="Slide the MenuBar to the left for more Info"
+            Grid.Column="3"
+            Grid.ColumnSpan="11"
+            HorizontalOptions="Center"
+            VerticalOptions="EndAndExpand"
+       />
 
         <Grid x:Name = "ButtonGrid" 
             Grid.Row="1" 

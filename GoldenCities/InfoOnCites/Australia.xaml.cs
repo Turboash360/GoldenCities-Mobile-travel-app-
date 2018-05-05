@@ -44,9 +44,18 @@ namespace GoldenCities
 
             var item1 = new ListClass
             {
-                IconSource = "alice.png",
+                IconSource = "Alice-Springs.png",
                 websiteName = " Alice Springs, Australia",
-                websiteDescription = " Alice Springs is often called the Alice for short",
+                websiteDescription = " Alice Springs is often called the Alice for short" +
+                    "Uluru is the most iconic natural landform in Australia — " +
+                    "and its formation is an equally special story of creation, " +
+                    "destruction and reinvention. The origins of Uluru(and Kata Tjuta) date back about " +
+                    "500 million years, to around the same time the Australian continent was formed. " +
+                    "Large crustal blocks were merging together to create the island of Australia — " +
+                    "a process similar to the way India is ramming into the Eurasian continent today. " +
+                    "As a result, Himalayan - sized mountain ranges were being built.",
+
+
                 latitude = Alice_lat,
                 longitude = Alice_long,
                 places = Alice_places,

@@ -30,17 +30,27 @@
 
 
         <Image
-            Source="SouthAmerica.png"
+            Source="South-America.png"
             Scale="1"
             Grid.ColumnSpan="3"
             Grid.RowSpan="1"
             Grid.Row="0"/>
+
+         
         <Label
             Text="South American Cities"
             FontSize="30"
             Grid.ColumnSpan="3"
             VerticalOptions="CenterAndExpand"
             HorizontalOptions="Center"/> 
+
+        <Label 
+            Text="Slide the MenuBar to the left for more Info"
+            Grid.ColumnSpan="3"
+            HorizontalOptions="Center"
+            VerticalOptions="EndAndExpand"
+            />
+       
 
          <Button
             x:Name="MachuPicchu"
@@ -110,6 +120,8 @@
         Grid.Column="0"
         Grid.ColumnSpan="2"
         Spacing="12" Margin="2">
+
+
             
         <Label  
             HorizontalOptions="Center" />

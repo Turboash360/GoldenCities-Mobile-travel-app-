@@ -35,6 +35,15 @@
                 FontSize="35"/>
         </StackLayout>
 
+        <Label 
+            Text="Slide the MenuBar to the right for more Info"
+            Grid.Column="3"
+            Grid.ColumnSpan="11"
+            HorizontalOptions="Center"
+            VerticalOptions="EndAndExpand"
+       />
+
+        
         <Grid x:Name = "ButtonGrid" 
             Grid.Row="1" 
             Grid.Column="11"
