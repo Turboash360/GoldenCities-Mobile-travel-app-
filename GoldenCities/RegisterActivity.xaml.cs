@@ -3,6 +3,8 @@ using System.Diagnostics;
 using System.Collections.Generic;
 using GoldenCities.ClassModels;
 using Xamarin.Forms;
+//using Auth0;
+using SQLite;
 
 namespace GoldenCities
 {
@@ -133,6 +135,9 @@ namespace GoldenCities
             int upper = 0, num = 0;
             bool lower = false, special = false;
 
+
+
+          
             if (pass.Length < 6)
             {
                 Handle_Errors("Password must be at least 6 characters");
@@ -245,11 +250,19 @@ namespace GoldenCities
                     Handle_Completed_Dof(null, null);
                     if (date_correct)
                     {
+                        
                         //Push data into database
+
+                        //Console.WriteLine("Creating database, if it doesn't already exist");
+                        //string dbPath = Path.Combine(
+                            // Environment.GetFolderPath(Environment.SpecialFolder.Personal),
+                           //  "ormdemo.db3");
+                        // var db = new SQLiteConnection(dbPath);
+
 
                         reset();
                         Debug.WriteLine($"**** {this.GetType().Name}.{nameof(Handle_Clicked)}");
-                        Navigation.PushAsync(new LoginPage());
+                        Navigation.PushAsync(new UserList());
                     }
                 }
             }
