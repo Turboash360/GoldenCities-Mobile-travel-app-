@@ -42,7 +42,7 @@ namespace GoldenCities
                 latitude = SP_lat,
                 longitude = SP_long,
                 places = SP_places,
-                wetherkey = "&q=SouthPole"
+                wetherkey = "&q=Nuuk"
             };
             List.Add(item);
             MyList[0] = item;
@@ -50,12 +50,12 @@ namespace GoldenCities
             var item1 = new ListClass
             {
                 IconSource = "Antartica.png",
-                websiteName = "2. North Pole, Antartica",
+                websiteName = "2. North Pole, Antarctica",
                 websiteDescription = "A random city in Antartica. How do I get there?" +                         "First, go to south pole. There is a magical portal in south pole which will teleport you to north pole.", 
                 latitude = NP_lat,
                 longitude = NP_long,
                 places = NP_places,
-                wetherkey = "&q=NorthPole"
+                wetherkey = "&q=Nuuk"
 
             };
             List.Add(item1);
@@ -69,7 +69,7 @@ namespace GoldenCities
                 latitude = MM_lat,
                 longitude = MM_long,
                 places = MM_places,
-                wetherkey = "&q=McMurdo"
+                wetherkey = "&q=Nuuk"
             };
             List.Add(item2);
             MyList[2] = item2;

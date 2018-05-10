@@ -142,10 +142,10 @@ namespace GoldenCities
                 IconSource = "Ontario.png",
                 websiteName = "7. Ontario, Canada",
                 websiteDescription = "One of the most well known cities in Canada.",
-                latitude = HO_lat,
-                longitude = HO_long,
-                places = HO_places,
-                wetherkey = "&q=Ontario"
+                latitude = ON_lat,
+                longitude = ON_long,
+                places = ON_places,
+                wetherkey = "&q=Ontario Canada"
             };
             List.Add(item6);
             MyList[6] = item6;

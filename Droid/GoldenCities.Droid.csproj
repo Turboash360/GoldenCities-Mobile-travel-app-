@@ -160,9 +160,6 @@
     <Reference Include="IdentityModel.OidcClient">
       <HintPath>..\packages\IdentityModel.OidcClient.2.1.2\lib\netstandard1.4\IdentityModel.OidcClient.dll</HintPath>
     </Reference>
-    <Reference Include="Auth0.OidcClient">
-      <HintPath>..\packages\Auth0.OidcClient.Android.1.2.0\lib\MonoAndroid10\Auth0.OidcClient.dll</HintPath>
-    </Reference>
     <Reference Include="SQLitePCLRaw.core">
       <HintPath>..\packages\SQLitePCLRaw.core.1.1.5\lib\MonoAndroid\SQLitePCLRaw.core.dll</HintPath>
     </Reference>

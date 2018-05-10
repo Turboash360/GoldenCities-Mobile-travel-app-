@@ -19,14 +19,14 @@ namespace GoldenCities
         private void PopulateViewList()
         {
             string[] LO_places = {"Big Ben", "South Bank","London Transport Museum", "Imperial War Museum","London Square"};
-            string[] PA_places = {"St. Vincient de Paul", "75 St. Rue, Bob's Hotel", "Effel Tower", "St. Georges", "Golden Circle"};
+            string[] PA_places = {"St. Vincient de Paul", "75 St. Rue, Bob's Hotel", "Effel Tower", "Saint-Germain-des-Prés Abbey", "Mona Lisa Muesuem"};
             string[] RE_places = {"Tommi's Burger Joint", "GeoIceLand Tours", "Golden Circle"};
             string[] RO_places = {"Vatican Museum","Colosseum", "Palatine Hill", "Sistine Chapel", "Leaning Tower of Piza"};
             string[] MA_places = {"Madrid Marriott Museum", "Prado National Museum", "Mercado San Miguel", "Calle Avila", "Royal Palace of Madrid"};
             string[] BE_places = { "Berlin Wall", "Reichstag Building", "Pergamon Museum", "East Side Gallery", "Brandenburg Gate"};
 
             double[] LO_lat = { 51.5037, 51.4991, 51.5146, 51.4994, 51.5143};
-            double[] PA_lat = { 27.1750, 27.1795, 28.6129, 28.6562, 28.5535};
+            double[] PA_lat = { 48.8790, 48.8335, 48.8584, 48.853867, 48.860294 };
             double[] RE_lat = { 64.1260, 64.1360, 64.1360};
             double[] RO_lat = { 41.9067, 41.8904, 41.8905, 41.9032, 43.7232};
             double[] MA_lat = { 40.4577, 40.4140, 40.4157, 40.6601, 40.4182};
@@ -34,7 +34,7 @@ namespace GoldenCities
 
 
             double[] LO_long = { -0.1246, -0.1079, -0.1172, -0.0999, -0.1303};
-            double[] PA_long = { 78.0422, 78.0211, 77.2295, 77.2410, 78.2588};
+            double[] PA_long = { 2.3519, 2.3191, 2.2945, 2.334723, 2.338629  };
             double[] RE_long = { -21.8162, -21.8236, -21.8236};
             double[] RO_long = { 12.4536, 12.4922, 12.4874, 12.4544, 10.3966};
             double[] MA_long = { -3.5432, -3.6917, -3.7085, -4.6886, -3.7142};

@@ -262,7 +262,7 @@ namespace GoldenCities
 
                         reset();
                         Debug.WriteLine($"**** {this.GetType().Name}.{nameof(Handle_Clicked)}");
-                        Navigation.PushAsync(new UserList());
+
                     }
                 }
             }
