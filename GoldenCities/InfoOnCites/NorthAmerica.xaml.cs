@@ -128,7 +128,8 @@ namespace GoldenCities
             {
                 IconSource = "MC.png",
                 websiteName = "6. Mexico City, Mexico",
-                websiteDescription = "It's the capital of Mexico.",
+                websiteDescription = "It's the capital of Mexico. Ther city itself is pretty old. " +
+                    "In the early days, the Aztec Indians settled on the lake. They built a city called Tenochtitlán.",
                 latitude = MC_lat,
                 longitude = MC_long,
                 places = MC_places,
@@ -141,7 +142,8 @@ namespace GoldenCities
             {
                 IconSource = "Ontario.png",
                 websiteName = "7. Ontario, Canada",
-                websiteDescription = "One of the most well known cities in Canada.",
+                websiteDescription = "One of the most well known cities in Canada. They speak French in Canada, as" +
+                    "well as English.",
                 latitude = ON_lat,
                 longitude = ON_long,
                 places = ON_places,

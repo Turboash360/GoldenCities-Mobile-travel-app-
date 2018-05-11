@@ -33,7 +33,7 @@ namespace GoldenCities
             {
                 IconSource = "sydney.png",
                 websiteName = "Sydney, Australia",
-                websiteDescription = "Biggest city in Australia.",
+                websiteDescription = "Biggest city in Australia. It is a suburb city. It has a coral reef.",
                 latitude = Syd_lat,
                 longitude = Syd_long,
                 places = Syd_places,

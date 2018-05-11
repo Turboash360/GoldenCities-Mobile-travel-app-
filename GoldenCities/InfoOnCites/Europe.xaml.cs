@@ -104,7 +104,8 @@ namespace GoldenCities
             {
                 IconSource = "madrid.png",
                 websiteName = "5. Madrid, Spain",
-                websiteDescription = "Known for the Royal Palace of Madrid. ",
+                websiteDescription = "Known for the Royal Palace of Madrid. It is also well known for " +
+                    "bullfighting. ",
                 latitude = MA_lat,
                 longitude = MA_long,
                 places = MA_places,
